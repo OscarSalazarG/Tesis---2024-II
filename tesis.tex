@@ -1,0 +1,174 @@
+\documentclass[12pt]{report}
+\usepackage{mathptmx} % Cambia la fuente a Times
+\usepackage[a4paper,right=2.54cm,left=2.54cm,top=2.54cm,bottom=2.54cm]{geometry}
+
+%%%% Paquete para usar citas de diferentes formatos
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes}
+\usepackage[spanish]{babel}
+\usepackage[style=apa, backend=biber]{biblatex} % Cargar biblatex con las opciones necesarias
+
+% Agregar el archivo de bibliografía
+\addbibresource{biblio/references.bib} 
+
+%%%% Paquete para hiperlinks entre citas e imágenes
+\usepackage[colorlinks=true,
+citecolor=blue,
+urlcolor=cyan,
+bookmarks=true,
+linkcolor=blue,
+pdftitle={Tesis-nombre-alumno},
+pdfauthor={autor nombres}]{hyperref}
+
+\usepackage{amssymb}
+\usepackage{graphicx} % for improved inclusion of graphics
+\usepackage[margin=10pt,font=small,labelfont=bf]{caption} % for improved layout of figure captions with extra margin, smaller font than text
+\usepackage{eucal}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage[perpage]{footmisc}
+\usepackage{ifthen}
+\usepackage{multicol} % for pages with multiple text columns, e.g. References
+\setlength{\columnsep}{20pt} % space between columns; default 10pt quite narrow
+\usepackage[nottoc]{tocbibind} % correct page numbers for bib in TOC, nottoc suppresses an entry for TOC itself
+\usepackage{appendix}
+
+%%% Modificar encabezado y pie de página
+\usepackage{fancyhdr} % for better header layout
+\newcommand{\changefont}{%
+	\fontsize{9pt}{1.5pt}\selectfont
+}
+\pagestyle{fancy}
+\fancyhf{} %% delete default configuration of page
+\fancyhead[L]{\changefont Titulo de tesis aqui}
+\fancyhead[R]{\changefont \leftmark}
+\fancyfoot[R]{\thepage}
+
+%%%% Configuración de los párrafos
+\setlength{\parindent}{0.5in} %% sangría
+\setlength{\parskip}{3mm}  %% espacio entre párrafos
+\linespread{1.3} % This equals 1.5 linespacing in Word
+
+%%%% Centrar valores de una tabla
+\usepackage{array}
+%% Centrado horizontal
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+%% Centrado vertical
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+
+%%%% Paquete para alinear texto
+\usepackage{ragged2e}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{rotating}
+\usepackage{siunitx} % To align the numbers later on
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{color, colortbl}
+\definecolor{Gray}{gray}{0.9}
+\definecolor{orange}{rgb}{1,0.647,0}
+\definecolor{turq3}{rgb}{0.54, 0.81, 0.94}
+\definecolor{turq}{rgb}{0.63, 0.79, 0.95}
+\definecolor{bluejean}{rgb}{0.03, 0.27, 0.49}
+
+\usepackage{xparse}
+\usepackage{expl3}
+%%%% Función de reemplazar regex
+\ExplSyntaxOn
+\NewDocumentCommand{\replace}{mmm}
+{
+	\marian_replace:nnn {#1} {#2} {#3}
+}
+
+\tl_new:N \l_marian_input_text_tl
+\tl_new:N \l_marian_search_tl
+\tl_new:N \l_marian_replace_tl
+
+\cs_new_protected:Npn \marian_replace:nnn #1 #2 #3
+{
+	\tl_set:Nn \l_marian_input_text_tl { #1 }
+	\tl_set:Nn \l_marian_search_tl { #2 }
+	\tl_set:Nn \l_marian_replace_tl { #3 }
+	\regex_replace_all:nnN { \b\u{l_marian_search_tl}\b } { \u{l_marian_replace_tl} } \l_marian_input_text_tl
+	\tl_use:N \l_marian_input_text_tl
+}
+\ExplSyntaxOff
+
+\usepackage{amsmath}
+\numberwithin{equation}{chapter} %% enumerar ecuaciones
+\renewcommand{\theequation}{Ecuación \thechapter.\arabic{equation}}
+
+%%% Configuraciones de biblatex
+\makeatletter
+\let\abx@macro@citeOrig\abx@macro@cite
+\renewbibmacro{cite}{%
+	\bibhyperref{%
+		\let\bibhyperref\relax\relax%
+		\abx@macro@citeOrig%
+	}%
+}
+\let\abx@macro@textciteOrig\abx@macro@textcite
+\renewbibmacro{textcite}{%
+	\bibhyperref{%
+		\let\bibhyperref\relax\relax%
+		\abx@macro@textciteOrig%
+	}%
+}
+\makeatother
+
+\begin{document}
+
+\begin{titlepage}
+	\begin{center}
+	    \includegraphics[width=0.45\textwidth]{images_repo/esanlogomin}
+		\vspace*{2cm} \\
+		UNIVERSIDAD ESAN \vspace*{1ex} \\
+		FACULTAD DE INGENIERÍA \vspace*{1ex} \\
+		INGENIERÍA DE TECNOLOGÍAS DE INFORMACIÓN Y SISTEMAS\vspace*{8ex} \\
+		\textbf{Implementación de modelo de análisis de tendencias en noticieros por procesamiento de imágenes: Aplicación de Big Data Analytics}
+		\vspace*{8ex}\\	
+		
+		Oscar Eduardo Salazar García\\
+		Asesor: Junior Fabian Arteaga		
+		\vfill
+		
+		Lima, \today 
+		
+	\end{center}
+\end{titlepage}
+
+%% Cambiar nombres de objetos para el índice y otros
+\renewcommand{\listfigurename}{Índice de Figuras}
+\renewcommand{\tablename}{Tabla}
+\renewcommand{\listtablename}{Índice de Tablas}
+
+\tableofcontents % print the table of contents
+
+%: ----------------------- contents ------------------------
+
+\setcounter{secnumdepth}{3} % organisational level that receives a numbers
+\setcounter{tocdepth}{3}    % print table of contents for level 3
+
+\listoffigures % print list of figures
+
+\listoftables  % print list of tables
+
+\include{1/planteamiento}
+\include{2/marco}
+\include{3/metodologia}
+%\include{4/desarrollo}
+%\include{5/resultados}
+%\include{6/conclusion}
+
+%% Anexos
+\appendix
+\renewcommand{\appendixname}{Anexos}
+\renewcommand{\appendixtocname}{Anexos}
+\renewcommand{\appendixpagename}{Anexos}
+\clearpage
+\addappheadtotoc
+\appendixpage
+\include{anexos/anexo}
+
+%% Bibliografía
+\printbibliography[heading=bibintoc,title={BIBLIOGRAFÍA}]
+
+\end{document}
