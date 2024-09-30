@@ -19,6 +19,44 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global}
+    \entry{bhardwaj2019efficient}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d430f139b33e9a6af518969e501ff9d5}{%
+           family={Bhardwaj},
+           familyi={B\bibinitperiod},
+           given={Shweta},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f5ad7fbb46bf949d584759eb20ddcad7}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Mukundhan},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=620c69e905e599a451eba3f56f8e43f0}{%
+           family={Khapra},
+           familyi={K\bibinitperiod},
+           given={Mitesh\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c0ae1b9b9f0a8d318560277aae1db04e}
+      \strng{fullhash}{15271a6cdaaa4ff999affb0b5c212337}
+      \strng{bibnamehash}{15271a6cdaaa4ff999affb0b5c212337}
+      \strng{authorbibnamehash}{15271a6cdaaa4ff999affb0b5c212337}
+      \strng{authornamehash}{c0ae1b9b9f0a8d318560277aae1db04e}
+      \strng{authorfullhash}{15271a6cdaaa4ff999affb0b5c212337}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1902.10640}
+      \field{title}{Efficient Video Classification Using Fewer Frames}
+      \field{year}{2019}
+    \endentry
     \entry{youtube_peru}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=521cd76c97ca2b4cb17c6aa8d1e02001}{%
@@ -47,6 +85,72 @@
       \verb https://datareportal.com/reports/digital-2024-peru?rq=Peru
       \endverb
     \endentry
+    \entry{liang2021news}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=947d8f20bb1616371df375930744164e}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Buyun},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0c3bb2625d92599a7df7d96021e7219d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Na},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e265230658412caf36c1074aadc9a57b}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Zheng},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b05f16ea7d000b9dccba2d296278244}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zhongyuan},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5bd01381853a47e18ca51610143aadb}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Youming},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5e67c95932c489c0f9c2d2b11f3ff0df}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{96f7ff4d94f35fb8390bbf01733f4fae}
+      \strng{fullhash}{e2cd6d306b77e5c0398a6f2808793e50}
+      \strng{bibnamehash}{e2cd6d306b77e5c0398a6f2808793e50}
+      \strng{authorbibnamehash}{e2cd6d306b77e5c0398a6f2808793e50}
+      \strng{authornamehash}{96f7ff4d94f35fb8390bbf01733f4fae}
+      \strng{authorfullhash}{e2cd6d306b77e5c0398a6f2808793e50}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Entropy}
+      \field{number}{8}
+      \field{title}{News Video Summarization Combining SURF and Color Histogram Features}
+      \field{volume}{23}
+      \field{year}{2021}
+      \field{pages}{982}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/e23080982
+      \endverb
+    \endentry
     \entry{pewresearch_cite}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8b14458e0c3e9f3073dcdd71307c0824}{%
@@ -73,10 +177,235 @@
       \endverb
       \verb{url}
       \verb https://www.pewresearch.org/journalism/fact-sheet/social-media-and-news-fact-sheet/
+      \endverb
+    \endentry
+    \entry{raza2024improved}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=48f40823d6145aac0cd393ba9b2a8975}{%
+           family={Raza},
+           familyi={R\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=722bf8c2b67a06114d935b48b6d42842}{%
+           family={Younas},
+           familyi={Y\bibinitperiod},
+           given={Faizan},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d23a4644d865ff10cd153cc33dc1faa}{%
+           family={Siddiqui},
+           familyi={S\bibinitperiod},
+           given={Hafeez\bibnamedelimb Ur\bibnamedelima Rehman},
+           giveni={H\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e56b7d08a0d3834006e9fcf61c36de8d}{%
+           family={Rustam},
+           familyi={R\bibinitperiod},
+           given={Furqan},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d88a3f966da2dbbba382ff9ae45b88e0}{%
+           family={Villar},
+           familyi={V\bibinitperiod},
+           given={Monica\bibnamedelima Gracia},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0fa4dbf7843c7ef6a13f137ae77b7ca}{%
+           family={Alvarado},
+           familyi={A\bibinitperiod},
+           given={Eduardo\bibnamedelima Silva},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38c004e153a7beeec2ef81b0ccd7821e}{%
+           family={Ashraf},
+           familyi={A\bibinitperiod},
+           given={Imran},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{bf54979081f4533472e94d797f27af6f}
+      \strng{fullhash}{f0955308bc55868c7f70e75efa9edfee}
+      \strng{bibnamehash}{f0955308bc55868c7f70e75efa9edfee}
+      \strng{authorbibnamehash}{f0955308bc55868c7f70e75efa9edfee}
+      \strng{authornamehash}{bf54979081f4533472e94d797f27af6f}
+      \strng{authorfullhash}{f0955308bc55868c7f70e75efa9edfee}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Heliyon}
+      \field{number}{16}
+      \field{title}{An improved deep convolutional neural network-based YouTube video classification using textual features}
+      \field{volume}{10}
+      \field{year}{2024}
+      \field{pages}{e35812}
+      \range{pages}{-1}
+    \endentry
+    \entry{rozsa2022tv}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=08fbf4de74c3b1640bd084b9bd3ed30f}{%
+           family={Rozsa},
+           familyi={R\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6191a540cc704af5f87db9cb2bf1e998}{%
+           family={Mocofan},
+           familyi={M\bibinitperiod},
+           given={Muguras},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{2ce71647fd5772d5b6a6b6c49a39cb86}
+      \strng{fullhash}{2ce71647fd5772d5b6a6b6c49a39cb86}
+      \strng{bibnamehash}{2ce71647fd5772d5b6a6b6c49a39cb86}
+      \strng{authorbibnamehash}{2ce71647fd5772d5b6a6b6c49a39cb86}
+      \strng{authornamehash}{2ce71647fd5772d5b6a6b6c49a39cb86}
+      \strng{authorfullhash}{2ce71647fd5772d5b6a6b6c49a39cb86}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2022 International Symposium on Electronics and Telecommunications (ISETC)}
+      \field{title}{TV News Database Indexing System with Video Structure Analysis, Representative Images Extractions and OCR for News Titles}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+    \endentry
+    \entry{wang2023shear}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=088c394e2088db48ab3c5af5a000f38b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xinshan},
+           giveni={X\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=86359d8c58591bd317b0c26f48876876}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Jianfeng},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Prague, Czech Republic}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{a797b68720c9434f7cd7a855e499056e}
+      \strng{fullhash}{a797b68720c9434f7cd7a855e499056e}
+      \strng{bibnamehash}{a797b68720c9434f7cd7a855e499056e}
+      \strng{authorbibnamehash}{a797b68720c9434f7cd7a855e499056e}
+      \strng{authornamehash}{a797b68720c9434f7cd7a855e499056e}
+      \strng{authorfullhash}{a797b68720c9434f7cd7a855e499056e}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2023 Asia-Europe Conference on Electronics, Data Processing and Informatics (ACEDPI)}
+      \field{title}{Shear Detection and Key Frame Extraction of Sports Video Based on Machine Learning}
+      \field{year}{2023}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ACEDPI58926.2023.00014
+      \endverb
+    \endentry
+    \entry{wang2023keyframe}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=f3bc9f203444e5a562999099c4ee9eca}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zihan},
+           giveni={Z\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=5ffb5aba0d9858b862639d446d48f8eb}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{0398542bca29de5b2bafe1bafced4fb8}
+      \strng{fullhash}{0398542bca29de5b2bafe1bafced4fb8}
+      \strng{bibnamehash}{0398542bca29de5b2bafe1bafced4fb8}
+      \strng{authorbibnamehash}{0398542bca29de5b2bafe1bafced4fb8}
+      \strng{authornamehash}{0398542bca29de5b2bafe1bafced4fb8}
+      \strng{authorfullhash}{0398542bca29de5b2bafe1bafced4fb8}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2023 International Conference on Telecommunications, Electronics and Informatics (ICTEI)}
+      \field{title}{Research on Key Frame Extraction of Digital Image Based on Unsupervised Clustering Algorithm}
+      \field{year}{2023}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICTEI60496.2023.00125
       \endverb
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
+    \entry{bhardwaj2019efficient}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d430f139b33e9a6af518969e501ff9d5}{%
+           family={Bhardwaj},
+           familyi={B\bibinitperiod},
+           given={Shweta},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f5ad7fbb46bf949d584759eb20ddcad7}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Mukundhan},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=620c69e905e599a451eba3f56f8e43f0}{%
+           family={Khapra},
+           familyi={K\bibinitperiod},
+           given={Mitesh\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c0ae1b9b9f0a8d318560277aae1db04e}
+      \strng{fullhash}{15271a6cdaaa4ff999affb0b5c212337}
+      \strng{bibnamehash}{15271a6cdaaa4ff999affb0b5c212337}
+      \strng{authorbibnamehash}{15271a6cdaaa4ff999affb0b5c212337}
+      \strng{authornamehash}{c0ae1b9b9f0a8d318560277aae1db04e}
+      \strng{authorfullhash}{15271a6cdaaa4ff999affb0b5c212337}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1902.10640}
+      \field{title}{Efficient Video Classification Using Fewer Frames}
+      \field{year}{2019}
+    \endentry
     \entry{youtube_peru}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=521cd76c97ca2b4cb17c6aa8d1e02001}{%
@@ -105,6 +434,72 @@
       \verb https://datareportal.com/reports/digital-2024-peru?rq=Peru
       \endverb
     \endentry
+    \entry{liang2021news}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=947d8f20bb1616371df375930744164e}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Buyun},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0c3bb2625d92599a7df7d96021e7219d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Na},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e265230658412caf36c1074aadc9a57b}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Zheng},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b05f16ea7d000b9dccba2d296278244}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zhongyuan},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5bd01381853a47e18ca51610143aadb}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Youming},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5e67c95932c489c0f9c2d2b11f3ff0df}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MDPI}%
+      }
+      \strng{namehash}{96f7ff4d94f35fb8390bbf01733f4fae}
+      \strng{fullhash}{e2cd6d306b77e5c0398a6f2808793e50}
+      \strng{bibnamehash}{e2cd6d306b77e5c0398a6f2808793e50}
+      \strng{authorbibnamehash}{e2cd6d306b77e5c0398a6f2808793e50}
+      \strng{authornamehash}{96f7ff4d94f35fb8390bbf01733f4fae}
+      \strng{authorfullhash}{e2cd6d306b77e5c0398a6f2808793e50}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Entropy}
+      \field{number}{8}
+      \field{title}{News Video Summarization Combining SURF and Color Histogram Features}
+      \field{volume}{23}
+      \field{year}{2021}
+      \field{pages}{982}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/e23080982
+      \endverb
+    \endentry
     \entry{pewresearch_cite}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8b14458e0c3e9f3073dcdd71307c0824}{%
@@ -131,6 +526,193 @@
       \endverb
       \verb{url}
       \verb https://www.pewresearch.org/journalism/fact-sheet/social-media-and-news-fact-sheet/
+      \endverb
+    \endentry
+    \entry{raza2024improved}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=48f40823d6145aac0cd393ba9b2a8975}{%
+           family={Raza},
+           familyi={R\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=722bf8c2b67a06114d935b48b6d42842}{%
+           family={Younas},
+           familyi={Y\bibinitperiod},
+           given={Faizan},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d23a4644d865ff10cd153cc33dc1faa}{%
+           family={Siddiqui},
+           familyi={S\bibinitperiod},
+           given={Hafeez\bibnamedelimb Ur\bibnamedelima Rehman},
+           giveni={H\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e56b7d08a0d3834006e9fcf61c36de8d}{%
+           family={Rustam},
+           familyi={R\bibinitperiod},
+           given={Furqan},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d88a3f966da2dbbba382ff9ae45b88e0}{%
+           family={Villar},
+           familyi={V\bibinitperiod},
+           given={Monica\bibnamedelima Gracia},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0fa4dbf7843c7ef6a13f137ae77b7ca}{%
+           family={Alvarado},
+           familyi={A\bibinitperiod},
+           given={Eduardo\bibnamedelima Silva},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38c004e153a7beeec2ef81b0ccd7821e}{%
+           family={Ashraf},
+           familyi={A\bibinitperiod},
+           given={Imran},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{bf54979081f4533472e94d797f27af6f}
+      \strng{fullhash}{f0955308bc55868c7f70e75efa9edfee}
+      \strng{bibnamehash}{f0955308bc55868c7f70e75efa9edfee}
+      \strng{authorbibnamehash}{f0955308bc55868c7f70e75efa9edfee}
+      \strng{authornamehash}{bf54979081f4533472e94d797f27af6f}
+      \strng{authorfullhash}{f0955308bc55868c7f70e75efa9edfee}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Heliyon}
+      \field{number}{16}
+      \field{title}{An improved deep convolutional neural network-based YouTube video classification using textual features}
+      \field{volume}{10}
+      \field{year}{2024}
+      \field{pages}{e35812}
+      \range{pages}{-1}
+    \endentry
+    \entry{rozsa2022tv}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=08fbf4de74c3b1640bd084b9bd3ed30f}{%
+           family={Rozsa},
+           familyi={R\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6191a540cc704af5f87db9cb2bf1e998}{%
+           family={Mocofan},
+           familyi={M\bibinitperiod},
+           given={Muguras},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{2ce71647fd5772d5b6a6b6c49a39cb86}
+      \strng{fullhash}{2ce71647fd5772d5b6a6b6c49a39cb86}
+      \strng{bibnamehash}{2ce71647fd5772d5b6a6b6c49a39cb86}
+      \strng{authorbibnamehash}{2ce71647fd5772d5b6a6b6c49a39cb86}
+      \strng{authornamehash}{2ce71647fd5772d5b6a6b6c49a39cb86}
+      \strng{authorfullhash}{2ce71647fd5772d5b6a6b6c49a39cb86}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2022 International Symposium on Electronics and Telecommunications (ISETC)}
+      \field{title}{TV News Database Indexing System with Video Structure Analysis, Representative Images Extractions and OCR for News Titles}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+    \endentry
+    \entry{wang2023shear}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=088c394e2088db48ab3c5af5a000f38b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xinshan},
+           giveni={X\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=86359d8c58591bd317b0c26f48876876}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Jianfeng},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Prague, Czech Republic}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{a797b68720c9434f7cd7a855e499056e}
+      \strng{fullhash}{a797b68720c9434f7cd7a855e499056e}
+      \strng{bibnamehash}{a797b68720c9434f7cd7a855e499056e}
+      \strng{authorbibnamehash}{a797b68720c9434f7cd7a855e499056e}
+      \strng{authornamehash}{a797b68720c9434f7cd7a855e499056e}
+      \strng{authorfullhash}{a797b68720c9434f7cd7a855e499056e}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2023 Asia-Europe Conference on Electronics, Data Processing and Informatics (ACEDPI)}
+      \field{title}{Shear Detection and Key Frame Extraction of Sports Video Based on Machine Learning}
+      \field{year}{2023}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ACEDPI58926.2023.00014
+      \endverb
+    \endentry
+    \entry{wang2023keyframe}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=f3bc9f203444e5a562999099c4ee9eca}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zihan},
+           giveni={Z\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=5ffb5aba0d9858b862639d446d48f8eb}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{0398542bca29de5b2bafe1bafced4fb8}
+      \strng{fullhash}{0398542bca29de5b2bafe1bafced4fb8}
+      \strng{bibnamehash}{0398542bca29de5b2bafe1bafced4fb8}
+      \strng{authorbibnamehash}{0398542bca29de5b2bafe1bafced4fb8}
+      \strng{authornamehash}{0398542bca29de5b2bafe1bafced4fb8}
+      \strng{authorfullhash}{0398542bca29de5b2bafe1bafced4fb8}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2023 International Conference on Telecommunications, Electronics and Informatics (ICTEI)}
+      \field{title}{Research on Key Frame Extraction of Digital Image Based on Unsupervised Clustering Algorithm}
+      \field{year}{2023}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICTEI60496.2023.00125
       \endverb
     \endentry
   \enddatalist

@@ -1,0 +1,17 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'tesis.blg'
+[105] biber-MSWIN64:340> INFO - === 
+[143] Biber.pm:419> INFO - Reading 'tesis.bcf'
+[258] Biber.pm:979> INFO - Found 8 citekeys in bib section 0
+[278] Biber.pm:4419> INFO - Processing section 0
+[290] Biber.pm:4610> INFO - Looking for bibtex file 'biblio/references.bib' for section 0
+[339] bibtex.pm:1713> INFO - LaTeX decoding ...
+[365] bibtex.pm:1519> INFO - Found BibTeX data source 'biblio/references.bib'
+[441] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[442] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[442] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[462] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[462] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[462] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[478] bbl.pm:660> INFO - Writing 'tesis.bbl' with encoding 'UTF-8'
+[492] bbl.pm:763> INFO - Output to tesis.bbl
