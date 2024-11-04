@@ -1,12 +1,18 @@
 \documentclass[12pt]{report}
 \usepackage{mathptmx} % Cambia la fuente a Times
 \usepackage[a4paper,right=2.54cm,left=2.54cm,top=2.54cm,bottom=2.54cm]{geometry}
+\usepackage{etex}
 
 %%%% Paquete para usar citas de diferentes formatos
 \usepackage[utf8]{inputenc}
 \usepackage{csquotes}
 \usepackage[spanish]{babel}
 \usepackage[style=apa, backend=biber]{biblatex} % Cargar biblatex con las opciones necesarias
+\usepackage{adjustbox}
+\usepackage{float}
+\usepackage{longtable}
+\usepackage{listings}
+
 
 % Agregar el archivo de bibliografía
 \addbibresource{biblio/references.bib} 
@@ -39,7 +45,7 @@ pdfauthor={autor nombres}]{hyperref}
 }
 \pagestyle{fancy}
 \fancyhf{} %% delete default configuration of page
-\fancyhead[L]{\changefont Titulo de tesis aqui}
+\fancyhead[L]{\changefont Generación de clips informativos por clustering de frames}
 \fancyhead[R]{\changefont \leftmark}
 \fancyfoot[R]{\thepage}
 
@@ -116,59 +122,59 @@ pdfauthor={autor nombres}]{hyperref}
 
 \begin{document}
 
-\begin{titlepage}
-	\begin{center}
-	    \includegraphics[width=0.45\textwidth]{images_repo/esanlogomin}
-		\vspace*{2cm} \\
-		UNIVERSIDAD ESAN \vspace*{1ex} \\
-		FACULTAD DE INGENIERÍA \vspace*{1ex} \\
-		INGENIERÍA DE TECNOLOGÍAS DE INFORMACIÓN Y SISTEMAS\vspace*{8ex} \\
-		\textbf{Desarrollo de una herramienta inteligente para la generación de clips informativos de tendencias en noticieros mediante clustering de frames representativos}
-		\vspace*{8ex}\\	
-		
-		Oscar Eduardo Salazar García\\
-		Asesor: Junior Fabian Arteaga		
-		\vfill
-		
-		Lima, \today 
-		
-	\end{center}
-\end{titlepage}
+	\begin{titlepage}
+		\begin{center}
+			\includegraphics[width=0.45\textwidth]{images_repo/esanlogomin}
+			\vspace*{2cm} \\
+			UNIVERSIDAD ESAN \vspace*{1ex} \\
+			FACULTAD DE INGENIERÍA \vspace*{1ex} \\
+			INGENIERÍA DE TECNOLOGÍAS DE INFORMACIÓN Y SISTEMAS\vspace*{8ex} \\
+			\textbf{Desarrollo de una herramienta inteligente para la generación de clips informativos de tendencias en noticieros mediante clustering de frames representativos}
+			\vspace*{8ex}\\	
+			
+			Oscar Eduardo Salazar García\\
+			Asesor: Junior Fabian Arteaga		
+			\vfill
+			
+			Lima, \today 
+			
+		\end{center}
+	\end{titlepage}
 
-%% Cambiar nombres de objetos para el índice y otros
-\renewcommand{\listfigurename}{Índice de Figuras}
-\renewcommand{\tablename}{Tabla}
-\renewcommand{\listtablename}{Índice de Tablas}
+	%% Cambiar nombres de objetos para el índice y otros
+	\renewcommand{\listfigurename}{Índice de Figuras}
+	\renewcommand{\tablename}{Tabla}
+	\renewcommand{\listtablename}{Índice de Tablas}
 
-\tableofcontents % print the table of contents
+	\tableofcontents % print the table of contents
 
-%: ----------------------- contents ------------------------
+	%: ----------------------- contents ------------------------
 
-\setcounter{secnumdepth}{3} % organisational level that receives a numbers
-\setcounter{tocdepth}{3}    % print table of contents for level 3
+	\setcounter{secnumdepth}{3} % organisational level that receives a numbers
+	\setcounter{tocdepth}{3}    % print table of contents for level 3
 
-\listoffigures % print list of figures
+	\listoffigures % print list of figures
 
-\listoftables  % print list of tables
+	\listoftables  % print list of tables
 
-\include{1/planteamiento}
-\include{2/marco}
-%\include{3/metodologia}
-%\include{4/desarrollo}
-%\include{5/resultados}
-%\include{6/conclusion}
+	\include{1/planteamiento}
+	\include{2/marco}
+	\include{3/metodologia}
+	\include{4/desarrollo}
+	%\include{5/resultados}
+	%\include{6/conclusion}
 
-%% Anexos
-\appendix
-\renewcommand{\appendixname}{Anexos}
-\renewcommand{\appendixtocname}{Anexos}
-\renewcommand{\appendixpagename}{Anexos}
-\clearpage
-\addappheadtotoc
-\appendixpage
-\include{anexos/anexo}
+	%% Anexos
+	\appendix
+	\renewcommand{\appendixname}{Anexos}
+	\renewcommand{\appendixtocname}{Anexos}
+	\renewcommand{\appendixpagename}{Anexos}
+	\clearpage
+	\addappheadtotoc
+	\appendixpage
+	\include{anexos/anexo}
 
-%% Bibliografía
-\printbibliography[heading=bibintoc,title={BIBLIOGRAFÍA}]
+	%% Bibliografía
+	\printbibliography[heading=bibintoc,title={BIBLIOGRAFÍA}]
 
 \end{document}

@@ -1,158 +1,151 @@
 \chapter{METODOLOGÍA DE LA INVESTIGACIÓN}
+
 \section{Diseño de la investigación}
 
-En este segmento del documento se explica cual fue el tipo y enfoque del trabajo de
-investigación, al igual que la población y la muestra. 
+En esta sección se describirá el diseño de la investigación, el cual incluirá el alcance, enfoque y tipo de estudio que se realizará. Asimismo, se detallarán la población y muestra que serán consideradas en este trabajo.
 
-\subsection{Tipo de Investigación}
-El diseño del presente trabajo de investigación es de tipo no experimental, ya que no se manipulan las variables independientes y se observa su relación en el contexto de la implementación de un modelo de traducción de lenguaje de señas utilizando técnicas de Deep Learning. La etapa inicial del trabajo involucra el análisis de vídeos de lenguaje de señas, los cuales serán procesados mediante técnicas de Deep Learning. \\
+\subsection{Alcance de la investigación}
+El presente estudio tendrá un alcance explicativo, ya que se analizará cómo la aplicación de técnicas avanzadas de procesamiento de imágenes y algoritmos de clustering contribuirá a la automatización en la generación de clips informativos a partir de videos de noticias. Se buscará identificar patrones visuales y explicar cómo estos representan eventos clave en las noticias. El uso de técnicas como HOG para la extracción de características y K-means para el agrupamiento de frames permitirá optimizar la selección de contenido relevante en un entorno con sobrecarga informativa.
 
-El nivel del presente trabajo de investigación es explicativo, dado que se enfoca en la implementación de un modelo de traducción de lenguaje de señas utilizando Deep Learning para personas con discapacidad del habla. El objetivo es determinar cómo se puede lograr la traducción efectiva del lenguaje de señas a texto y viceversa, estableciendo una relación entre los gestos y movimientos específicos del lenguaje de señas y su correspondencia con el texto escrito. \\
+\subsection{Tipo de investigación}
+Este estudio será de tipo no experimental, ya que no se manipularán deliberadamente las variables independientes ni se ejercerá control sobre los factores involucrados en el fenómeno estudiado. Los datos se observarán y analizarán en su contexto natural, específicamente los videos de noticias obtenidos de plataformas como YouTube. El análisis se centrará en la aplicación de técnicas de procesamiento de imágenes y algoritmos de clustering para identificar patrones y agrupar frames representativos, sin intervenir en las condiciones de producción de los videos ni en los eventos que presentan.
 
-
-
-\subsection{Enfoque de Investigación}
-
-El enfoque del presente trabajo de investigación es cuantitativo, dado que se basa en la utilización de instrumentos para la identificación y medición del lenguaje de señas a través de técnicas de visión computacional. Estas técnicas proporcionarán resultados numéricos que, tras un análisis estadístico, servirán como entrada para implementar modelos de Deep Learning. 
-
-
-
+\subsection{Enfoque de investigación}
+El enfoque de esta investigación será cuantitativo, dado que se basará en la recolección y análisis de datos numéricos derivados de los videos de noticias procesados. A través de la implementación de técnicas de procesamiento de imágenes y algoritmos de clustering, se buscará medir, agrupar y analizar objetivamente los frames más representativos para la generación automática de clips informativos.
 \section{Población y muestra}
 
-\begin{table}[h!]
+\begin{table}[H]
 	\centering
-	\caption{Descripción del Estudio}
-	\begin{tabular}{|>{\raggedright\arraybackslash}m{3cm}|>{\raggedright\arraybackslash}m{10cm}|}
+	\caption{Descripción del estudio}
+	\begin{tabular}{p{5cm}p{10cm}}
 		\hline
 		\textbf{Categoría} & \textbf{Descripción} \\ \hline
-		\textbf{Población} & Personas con discapacidades del habla y del escucha. \\ \hline
+		\textbf{Población} & Videos de noticias disponibles en plataformas como YouTube que cubrirán eventos de actualidad a nivel nacional e internacional. \\ \hline
 		\textbf{Muestra} & 
 		\begin{itemize}
-			\item 260 vídeos MP4 de diálogos en lenguaje de señas extraídas de Universidad Pontificia Universidad Católica del Perú.
-			\item 355 vídeos MP4 de narración de historias en lenguaje de señas extraídas de Universidad Pontificia Universidad Católica del Perú.
-			\item 103 vídeos MP4 de nombres, estados y acciones en lenguaje de señas extraídas de Universidad Pontificia Universidad Católica del Perú.
+			\item 40 vídeos de noticias en formato MP4 que serán extraídos automáticamente de YouTube utilizando la herramienta Youtube-Dlp.
 		\end{itemize}
 		\\ \hline
-		\textbf{Unidad de análisis} & Un vídeo de una persona comunicándose con lenguaje de señas \\ \hline
+		\textbf{Unidad de análisis} & Un vídeo de noticias completo que contendrá información sobre eventos relevantes de un día específico. \\ \hline
 	\end{tabular}
+	\label{tabla:poblacion_muestra}
 \end{table}
 
+\section{Operacionalización de variables}
 
-\section{Operacionalización de Variables}
-
-\begin{table}[h!]
+\begin{table}[H]
 	\centering
-	\caption{Operacionalización de Variables}
-	\begin{tabular}{|>{\raggedright\arraybackslash}m{4cm}|>{\raggedright\arraybackslash}m{4cm}|>{\raggedright\arraybackslash}m{4cm}|>{\raggedright\arraybackslash}m{4cm}|}
+	\caption{\textit{Operacionalización de Variables}}
+	\begin{adjustbox}{max width=\textwidth}
+	\begin{tabular}{p{4cm}p{4cm}p{4cm}p{4cm}}
 		\hline
 		\textbf{Variable} & \textbf{Dimensión} & \textbf{Indicador} & \textbf{Cálculo} \\ \hline
-		\textbf{Independiente: Modelo Deep Learning} 
-		& Base de datos & Volumen de datos & Cantidad de videos MP4\\ \cline{2-4}
+		\textbf{Independiente: Algoritmo de Clustering} 
+		& Datos de entrada & Volumen de datos & Cantidad de videos MP4 \\ \cline{2-4}
 		
-		\textbf{Dependiente: Traducción de Lenguaje de señas peruano para personas con discapacidades del habla} 
-		& Indicadores de rendimiento de modelo & Precisión, recall, F1-score & Fórmulas \\ \hline
+		\textbf{Dependiente: Creación automática de clips informativos} 
+		& Indicadores de desempeño & Inertia & Fórmulas específicas para cada métrica \\ \hline
 	\end{tabular}
+	\end{adjustbox}
+	\label{tabla:operacionalizacion_variables}
 \end{table}
-
 \section{Técnicas de recolección}
-	
-	La base de datos se compone de vídeos en formato MP4 proporcionados por la Universidad Pontificia Universidad Católica del Perú. Estos vídeos fueron seleccionados por su relevancia y calidad para el estudio del lenguaje de señas. Los videos MP4 contienen diálogos, narraciones de historias, y nombres, estados y acciones en lenguaje de señas.
 
+En esta investigación se emplearán técnicas de recopilación de datos automatizadas que permitirán la obtención eficiente y estructurada de videos de noticias. La herramienta principal que se utilizará será Youtube-DLP, un software de código abierto que facilitará la descarga automatizada de videos en formato MP4 desde plataformas como YouTube. Esta técnica asegurará la recopilación de grandes volúmenes de datos de manera precisa, permitiendo definir criterios específicos como la relevancia del contenido, la fecha de publicación y la duración de los videos, con el objetivo de garantizar que el material recopilado sea pertinente para el análisis de eventos clave. Asimismo, los videos recopilados se almacenarán y organizarán de manera estructurada, incluyendo metadatos como el título y la fuente de los videos, lo que facilitará tanto el acceso como el procesamiento posterior para el análisis automatizado.
 
 \section{Técnicas para el procesamiento y análisis de la información}
 
 \subsection{Metodología de la implementación de la solución}
 
-\subsubsection{Recolección de Datos}
-La recolección de datos es una fase crítica en cualquier proyecto de Deep Learning. En esta tesis, se han recopilado un total de 718 vídeos MP4 de lenguaje de señas, extraídos de la Pontificia Universidad Católica del Perú. Los datos se dividen en tres categorías principales:
-\begin{itemize}
-	\item \textbf{260 vídeos MP4 de diálogos en lenguaje de señas}: Estos vídeos contienen conversaciones entre dos o más personas utilizando lenguaje de señas.
-	\item \textbf{355 vídeos MP4 de narración de historias en lenguaje de señas}: En estos vídeos, las personas narran historias completas usando lenguaje de señas.
-	\item \textbf{103 vídeos MP4 de nombres, estados y acciones en lenguaje de señas}: Estos vídeos muestran la señalización de nombres, estados emocionales y diversas acciones.
-\end{itemize}
-
-\subsubsection{Preprocesamiento de Datos}
-El preprocesamiento de datos es una etapa esencial para preparar los datos brutos para ser utilizados por los modelos de Deep Learning. Las tareas de preprocesamiento incluyen:
-\begin{itemize}
-	\item \textbf{Extracción de Frames}: Se extraen frames de los vídeos a intervalos regulares para capturar las diferentes poses y movimientos de las manos.
-	\item \textbf{Aumento de Datos}: Se aplican técnicas de aumento de datos, como rotación, escalado y traslación, para aumentar la variabilidad y robustez del conjunto de datos.
-	\item \textbf{Etiquetado}: Cada frame o secuencia de frames se etiqueta con la correspondiente señal del lenguaje de señas que representa.
-	\item \textbf{Normalización}: Los frames se normalizan para asegurarse de que todos los datos tengan el mismo formato y escala.
-\end{itemize}
-
-\subsubsection{Uso de Redes Neuronales Convolucionales (CNN)}
-Las redes neuronales convolucionales (CNN) son efectivas para la tarea de reconocimiento de imágenes y, en este caso, para la identificación de señales en los frames extraídos de los vídeos. Las etapas clave incluyen:
-\begin{itemize}
-	\item \textbf{Diseño de la Arquitectura CNN}: Se diseña una arquitectura de CNN adecuada para la tarea, con capas convolucionales, de pooling y totalmente conectadas.
-	\item \textbf{Entrenamiento}: La CNN se entrena utilizando los datos preprocesados, ajustando los pesos de la red para minimizar el error en la predicción de las señales.
-	\item \textbf{Validación}: Se valida el rendimiento de la CNN utilizando un conjunto de datos de validación separado, ajustando los hiperparámetros según sea necesario.
-\end{itemize}
-
-\subsubsection{Integración de LSTM}
-Las redes neuronales de memoria a largo plazo (LSTM) son ideales para manejar secuencias de datos y capturar dependencias temporales. En esta fase:
-\begin{itemize}
-	\item \textbf{Extracción de Secuencias}: Se crean secuencias de frames para capturar el movimiento y la continuidad de las señales.
-	\item \textbf{Diseño de la Arquitectura LSTM}: Se diseña una arquitectura LSTM que pueda procesar las secuencias de frames y capturar las dependencias temporales entre ellos.
-	\item \textbf{Entrenamiento del Modelo}: El modelo LSTM se entrena para aprender las transiciones y la continuidad de las señales en las secuencias de frames.
-	\item \textbf{Combinación con CNN}: La salida de la CNN se combina con la LSTM para mejorar la precisión en la predicción de señales.
-\end{itemize}
-
-\subsubsection{Evaluación del Modelo}
-La evaluación del modelo es crucial para determinar su eficacia y áreas de mejora. Las actividades incluyen:
-\begin{itemize}
-	\item \textbf{Métricas de Evaluación}: Se utilizarán métricas como Recall, F1-Score y Accuracy para evaluar el rendimiento del modelo.
-	\item \textbf{Pruebas con Datos de Prueba}: Se prueba el modelo con un conjunto de datos de prueba que no se ha utilizado durante el entrenamiento para evaluar su rendimiento en datos no vistos.
-	\item \textbf{Análisis de Errores}: Se realiza un análisis de errores para identificar patrones comunes en las predicciones incorrectas y mejorar el modelo.
-	\item \textbf{Ajustes y Mejoras}: Basado en los resultados de la evaluación, se ajustan los hiperparámetros y se realizan mejoras en la arquitectura del modelo para aumentar su rendimiento.
-\end{itemize}
-
-\begin{figure}[h!]
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=1\textwidth]{3/figures/Metodología.png}
-	\caption{Metodología Iterativa}
-	\label{fig:etiqueta_de_la_figura}
+	\includegraphics[width=0.9\textwidth]{3/figures/Metodología.png}
+	\caption{Metodología del estudio.}
 \end{figure}
+
+\subsubsection{Recolección de datos}
+La recolección de datos será un componente esencial para el desarrollo de esta investigación. En este proyecto, se recopilarán un total de 36 videos en formato MP4, descargados automáticamente. Estos videos serán extraídos de noticieros en la plataforma YouTube, utilizando la herramienta Youtube-DLP. Los datos recopilados se almacenarán en una carpeta con un límite de tamaño total de 6 GB.
+
+\subsubsection{Preprocesamiento de datos}
+El preprocesamiento de datos será crucial para preparar los videos y sus frames recopilados antes de aplicar los modelos de análisis y clustering. Las tareas de preprocesamiento incluirán:
+
+\begin{itemize}
+    \item \textbf{Extracción de frames}: Se extraerán frames de los videos con el fin de capturar representaciones visuales relevantes de los eventos y elementos clave presentes en las noticias. Los intervalos de captura se establecerán en función de los frames por segundo.
+    \item \textbf{Reducción de frames}: Los frames extraídos serán evaluados para eliminar aquellos que sean irrelevantes o redundantes, como transiciones o escenas sin valor informativo, garantizando que el análisis se enfoque en el contenido más significativo.
+    \item \textbf{Normalización}: Los frames serán normalizados en términos de resolución y formato, asegurando que los datos visuales sigan un estándar homogéneo, lo que permitirá que los algoritmos de procesamiento funcionen de manera más eficiente.
+    \item \textbf{Etiquetado de frames procesados}: Los frames procesados serán almacenados y etiquetados para facilitar su organización y posterior análisis durante la fase de generación de clips informativos.
+\end{itemize}
+
+\subsubsection{Extracción de Características}
+La extracción de características será esencial para capturar la información visual relevante de los frames. Se utilizarán dos técnicas complementarias: Histogram of Oriented Gradients (HOG) y Redes Neuronales Convolucionales (CNN), que se integrarán mediante un proceso de stacking para obtener un único vector de características representativo de cada frame.
+
+\begin{itemize}
+    \item \textbf{Extracción con HOG}: El descriptor HOG capturará características locales de los frames, como bordes y contornos, proporcionando una representación detallada de los gradientes.
+    \item \textbf{Extracción con CNN}: Simultáneamente, se aplicará una CNN para extraer características más profundas y abstractas de los frames. La arquitectura CNN incluirá capas convolucionales, de pooling y totalmente conectadas para generar representaciones vectoriales.
+    \item \textbf{Stacking de características}: Los vectores de características obtenidos con HOG y CNN se combinarán mediante un proceso de stacking para obtener un único vector de características por frame, enriqueciendo la precisión del análisis.
+\end{itemize}
+\subsubsection{Clasificación de datos}
+Una vez obtenidos los vectores de características, se agruparán los frames en función de su similitud para identificar aquellos que representen los eventos más significativos en los videos de noticias. Esta clasificación de datos se llevará a cabo en dos fases principales: la aplicación del algoritmo K-Means y la identificación de frames clave.
+
+\begin{itemize}
+    \item \textbf{Agrupamiento con K-Means}: El algoritmo K-Means se utilizará para agrupar los frames en clusters, de acuerdo con las características extraídas mediante HOG y CNN. Cada cluster contendrá frames con patrones de noticias similares, lo que permite identificar escenas relacionadas dentro de un video.
+    \item \textbf{Identificación de frames clave}: Se seleccionarán los frames más representativos de cada cluster, aquellos cercanos al centroide, que se utilizarán para generar clips informativos automáticos.
+\end{itemize}
+
+\subsubsection{Creación de clips informativos}
+La etapa final de la metodología consistirá en la creación automática de clips informativos a partir de los frames clave seleccionados. El objetivo será generar resúmenes visuales concisos que representen los eventos más importantes de manera eficiente.
+
+\begin{itemize}
+    \item \textbf{Selección de secuencias de frames clave}:A partir de los frames clave identificados en cada cluster, se seleccionarán secuencias de frames adyacentes, en base a su etiqueta, que capturen los momentos esenciales del video.
+    \item \textbf{Generación de clips informativos}: Los frames clave seleccionados se ensamblarán en clips informativos cortos, garantizando coherencia visual y narrativa en cada clip.
+\end{itemize}
+
+
 
 
 \subsection{Metodología para la medición de resultados}
 
-\subsection*{Accuracy}
-El accuracy medirá la proporción de predicciones correctas sobre el total de predicciones realizadas por el modelo Deep Learning. Se utilizará para obtener una visión general del rendimiento del modelo.
-\begin{equation}
-	\text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}
-\end{equation}
+El rendimiento de las técnicas de clustering y clasificación será evaluado mediante métricas adecuadas para modelos no supervisados, enfocándose en la identificación de eventos clave en los videos.
 
-\subsection*{Recall}
-El Recall medirá la capacidad del modelo para identificar correctamente todas las instancias positivas.
-\begin{equation}
-	\text{Recall} = \frac{TP}{TP + FN}
-\end{equation}
 
-\subsection*{F1-Score}
-Se utilizará en caso el modelo presente un desequilibrio entre las clases y se necesita un equilibrio tanto en el Accuracy como en el recall.
+\subsection*{Inercia (Within-cluster Sum of Squares)}
+La inercia medirá la compacidad de los clusters formados, calculando la suma de las distancias cuadradas entre los puntos y sus centroides.
 \begin{equation}
-	\text{F1-Score} = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}
+    \text{Inercia} = \sum_{i=1}^{n} \sum_{j=1}^{k} \| x_i - c_j \|^2
 \end{equation}
 
 
-\section{Cronograma de actividades}
-\begin{figure}[h!]
+\section{Cronograma de Actividades}
+
+La representación gráfica de este cronograma en la Figura \ref{fig
+} permite visualizar la secuencia y la duración de cada actividad, destacando la interdependencia entre fases clave, y garantizando una gestión eficaz del tiempo a lo largo del proyecto.
+
+\begin{figure}[H]
 	\centering
-	\includegraphics[width=1\textwidth]{3/figures/Actividades.png}
-	\caption{Metodología Iterativa}
-	\label{fig:etiqueta_de_la_figura}
+	\includegraphics[width=1\textwidth]{3/figures/Gantt.png}
+	\caption{Cronograma de actividades del proyecto.}
+	\label{fig:cronograma_actividades}
 \end{figure}
+
+
 \section{Presupuesto}
+El presupuesto del proyecto, como se detalla en la Tabla \ref{tabla
+}, incluye los recursos materiales, técnicos y de servicios necesarios para su ejecución exitosa. Los costos están distribuidos en diferentes categorías: Hardware, que abarca equipos de cómputo esenciales; Software, centrado en herramientas de código abierto como Python; y Servicios, que incluye los gastos de conectividad a internet y suministro eléctrico. Este desglose permite visualizar los recursos disponibles y asegurar que el proyecto disponga de los medios necesarios para cumplir con sus objetivos de manera eficiente.
 
-
-\begin{table}[h!]
+\begin{table}[H]
 	\centering
-	\caption{Presupuesto del Proyecto}
-	\begin{tabular}{|>{\raggedright\arraybackslash}m{10cm}|>{\raggedright\arraybackslash}m{4cm}|}
+	\caption{\textit{Presupuesto del Proyecto}}
+	\begin{adjustbox}{max width=\textwidth}
+	\begin{tabular}{p{2cm}p{3cm}p{3cm}p{4.5cm}p{4cm}p{2cm}}
 		\hline
-		\textbf{Item} & \textbf{Costo (Soles)} \\ \hline
-		Laptop & 3500 \\ \hline
-		Cámara & 250 \\ \hline
-		\textbf{Total} & \textbf{3750} \\ \hline
+		\textbf{Tipo} & \textbf{Categoría} & \textbf{Recurso} & \textbf{Descripción} & \textbf{\raggedright Fuente Financiadora} & \textbf{Monto (Soles)} \\ \hline
+		Hardware & Computadoras & Laptop & Computadora portátil con capacidad de procesamiento avanzado & Propio & 6,000 \\ 
+		Software & Procesamiento & Python & Lenguaje de programación de código abierto & - & - \\
+		Servicio & Conectividad & Internet & Conexión a internet de alta velocidad para uso de herramientas y recursos online & Propio & 900 \\
+		Servicio & Conectividad & Electricidad & Suministro de energía eléctrica para los equipos durante el procesamiento de datos & Propio & 1,200 \\ 
+		\textbf{Total} & & & & & \textbf{8,100} \\ 
+		\hline
 	\end{tabular}
+	\end{adjustbox}
+	\label{tabla:presupuesto}
 \end{table}

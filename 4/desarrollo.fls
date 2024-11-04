@@ -1,0 +1,8 @@
+PWD c:\Users\edu08\OneDrive - Universidad ESAN\2024-Inter\TESIS\Latex\4
+INPUT C:\Users\edu08\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\edu08\OneDrive - Universidad ESAN\2024-Inter\TESIS\Latex\4\desarrollo.tex
+OUTPUT desarrollo.log
+INPUT C:\Users\edu08\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Users\edu08\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
+OUTPUT desarrollo.pdf
+INPUT C:\Users\edu08\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map

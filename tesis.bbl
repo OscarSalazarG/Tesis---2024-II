@@ -57,6 +57,103 @@
       \field{title}{Efficient Video Classification Using Fewer Frames}
       \field{year}{2019}
     \endentry
+    \entry{bhattarai2023hog}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=9ee270e7b4c2f09872e25514046a4846}{%
+           family={Bhattarai},
+           familyi={B\bibinitperiod},
+           given={Binod},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e3538d097a4c77d193d0fe705132a5b2}{%
+           family={Subedi},
+           familyi={S\bibinitperiod},
+           given={Ronast},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd78b836a7844e3b255e20c1f8641ba7}{%
+           family={Gaire},
+           familyi={G\bibinitperiod},
+           given={Rebati\bibnamedelima Raman},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9477903b4c608dab74c64ed7e0eec56e}{%
+           family={Vazquez},
+           familyi={V\bibinitperiod},
+           given={Eduard},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f858e350dfbb68c0e899ab729685036}{%
+           family={Stoyanov},
+           familyi={S\bibinitperiod},
+           given={Danail},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{7b723964d0b699cef1cd519aa29e28c9}
+      \strng{fullhash}{89bd66b2a323c668f941fcb5ebc863d7}
+      \strng{bibnamehash}{89bd66b2a323c668f941fcb5ebc863d7}
+      \strng{authorbibnamehash}{89bd66b2a323c668f941fcb5ebc863d7}
+      \strng{authornamehash}{7b723964d0b699cef1cd519aa29e28c9}
+      \strng{authorfullhash}{89bd66b2a323c668f941fcb5ebc863d7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Medical Image Analysis}
+      \field{title}{Histogram of Oriented Gradients meet deep learning: A novel multi-task deep network for 2D surgical image semantic segmentation}
+      \field{volume}{85}
+      \field{year}{2023}
+      \field{pages}{102747}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.media.2023.102747
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.media.2023.102747
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.media.2023.102747
+      \endverb
+    \endentry
+    \entry{bishop2006pattern}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9dfd0135a5e80aa6d81cea2c10fb7f73}{%
+           family={Bishop},
+           familyi={B\bibinitperiod},
+           given={Christopher\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, USA}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science+Business Media}%
+      }
+      \strng{namehash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \strng{fullhash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \strng{bibnamehash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \strng{authorbibnamehash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \strng{authornamehash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \strng{authorfullhash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-387-31073-2}
+      \field{title}{Pattern Recognition and Machine Learning}
+      \field{year}{2006}
+    \endentry
     \entry{youtube_peru}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=521cd76c97ca2b4cb17c6aa8d1e02001}{%
@@ -84,6 +181,47 @@
       \verb{url}
       \verb https://datareportal.com/reports/digital-2024-peru?rq=Peru
       \endverb
+    \endentry
+    \entry{Goodfellow-et-al-2016}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5d2585c11210cf1d4512e6e0a03ec315}{%
+           family={Goodfellow},
+           familyi={G\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ccec1ccd2e1aa86960eb2e872c6b7020}{%
+           family={Courville},
+           familyi={C\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{d17e6557c5836d2d978179999ea1037f}
+      \strng{fullhash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{bibnamehash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{authorbibnamehash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{authornamehash}{d17e6557c5836d2d978179999ea1037f}
+      \strng{authorfullhash}{3ae53fe582e8a815b118d26947eaa326}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{http://www.deeplearningbook.org}}
+      \field{title}{Deep Learning}
+      \field{year}{2016}
     \endentry
     \entry{liang2021news}{article}{}
       \name{author}{6}{}{%
@@ -149,6 +287,40 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.3390/e23080982
+      \endverb
+    \endentry
+    \entry{Mukherjee2022}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3ab1381ddb5b188d7ce30c22de11859c}{%
+           family={Mukherjee},
+           familyi={M\bibinitperiod},
+           given={Suvaditya},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3ab1381ddb5b188d7ce30c22de11859c}
+      \strng{fullhash}{3ab1381ddb5b188d7ce30c22de11859c}
+      \strng{bibnamehash}{3ab1381ddb5b188d7ce30c22de11859c}
+      \strng{authorbibnamehash}{3ab1381ddb5b188d7ce30c22de11859c}
+      \strng{authornamehash}{3ab1381ddb5b188d7ce30c22de11859c}
+      \strng{authorfullhash}{3ab1381ddb5b188d7ce30c22de11859c}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Towards Data Science}
+      \field{month}{8}
+      \field{note}{Accessed: 2024-10-27}
+      \field{title}{The Annotated ResNet-50}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/the-annotated-resnet-50-a6c536034758
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/the-annotated-resnet-50-a6c536034758
       \endverb
     \endentry
     \entry{pewresearch_cite}{article}{}
@@ -406,6 +578,103 @@
       \field{title}{Efficient Video Classification Using Fewer Frames}
       \field{year}{2019}
     \endentry
+    \entry{bhattarai2023hog}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=9ee270e7b4c2f09872e25514046a4846}{%
+           family={Bhattarai},
+           familyi={B\bibinitperiod},
+           given={Binod},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e3538d097a4c77d193d0fe705132a5b2}{%
+           family={Subedi},
+           familyi={S\bibinitperiod},
+           given={Ronast},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd78b836a7844e3b255e20c1f8641ba7}{%
+           family={Gaire},
+           familyi={G\bibinitperiod},
+           given={Rebati\bibnamedelima Raman},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9477903b4c608dab74c64ed7e0eec56e}{%
+           family={Vazquez},
+           familyi={V\bibinitperiod},
+           given={Eduard},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f858e350dfbb68c0e899ab729685036}{%
+           family={Stoyanov},
+           familyi={S\bibinitperiod},
+           given={Danail},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{7b723964d0b699cef1cd519aa29e28c9}
+      \strng{fullhash}{89bd66b2a323c668f941fcb5ebc863d7}
+      \strng{bibnamehash}{89bd66b2a323c668f941fcb5ebc863d7}
+      \strng{authorbibnamehash}{89bd66b2a323c668f941fcb5ebc863d7}
+      \strng{authornamehash}{7b723964d0b699cef1cd519aa29e28c9}
+      \strng{authorfullhash}{89bd66b2a323c668f941fcb5ebc863d7}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Medical Image Analysis}
+      \field{title}{Histogram of Oriented Gradients meet deep learning: A novel multi-task deep network for 2D surgical image semantic segmentation}
+      \field{volume}{85}
+      \field{year}{2023}
+      \field{pages}{102747}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.media.2023.102747
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.media.2023.102747
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.media.2023.102747
+      \endverb
+    \endentry
+    \entry{bishop2006pattern}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9dfd0135a5e80aa6d81cea2c10fb7f73}{%
+           family={Bishop},
+           familyi={B\bibinitperiod},
+           given={Christopher\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, USA}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science+Business Media}%
+      }
+      \strng{namehash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \strng{fullhash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \strng{bibnamehash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \strng{authorbibnamehash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \strng{authornamehash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \strng{authorfullhash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-387-31073-2}
+      \field{title}{Pattern Recognition and Machine Learning}
+      \field{year}{2006}
+    \endentry
     \entry{youtube_peru}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=521cd76c97ca2b4cb17c6aa8d1e02001}{%
@@ -433,6 +702,47 @@
       \verb{url}
       \verb https://datareportal.com/reports/digital-2024-peru?rq=Peru
       \endverb
+    \endentry
+    \entry{Goodfellow-et-al-2016}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5d2585c11210cf1d4512e6e0a03ec315}{%
+           family={Goodfellow},
+           familyi={G\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ccec1ccd2e1aa86960eb2e872c6b7020}{%
+           family={Courville},
+           familyi={C\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{d17e6557c5836d2d978179999ea1037f}
+      \strng{fullhash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{bibnamehash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{authorbibnamehash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{authornamehash}{d17e6557c5836d2d978179999ea1037f}
+      \strng{authorfullhash}{3ae53fe582e8a815b118d26947eaa326}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{http://www.deeplearningbook.org}}
+      \field{title}{Deep Learning}
+      \field{year}{2016}
     \endentry
     \entry{liang2021news}{article}{}
       \name{author}{6}{}{%
@@ -498,6 +808,40 @@
       \range{pages}{1}
       \verb{doi}
       \verb 10.3390/e23080982
+      \endverb
+    \endentry
+    \entry{Mukherjee2022}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3ab1381ddb5b188d7ce30c22de11859c}{%
+           family={Mukherjee},
+           familyi={M\bibinitperiod},
+           given={Suvaditya},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3ab1381ddb5b188d7ce30c22de11859c}
+      \strng{fullhash}{3ab1381ddb5b188d7ce30c22de11859c}
+      \strng{bibnamehash}{3ab1381ddb5b188d7ce30c22de11859c}
+      \strng{authorbibnamehash}{3ab1381ddb5b188d7ce30c22de11859c}
+      \strng{authornamehash}{3ab1381ddb5b188d7ce30c22de11859c}
+      \strng{authorfullhash}{3ab1381ddb5b188d7ce30c22de11859c}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Towards Data Science}
+      \field{month}{8}
+      \field{note}{Accessed: 2024-10-27}
+      \field{title}{The Annotated ResNet-50}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://towardsdatascience.com/the-annotated-resnet-50-a6c536034758
+      \endverb
+      \verb{url}
+      \verb https://towardsdatascience.com/the-annotated-resnet-50-a6c536034758
       \endverb
     \endentry
     \entry{pewresearch_cite}{article}{}

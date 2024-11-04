@@ -1,8 +1,8 @@
-En esta sección se presentarán diversos artículos de investigación o tesis las cuales abordarán diversas técnicas y enfoques que se emplearon para afrontar problemas similares al de esta tesis. Asimismo, a continuación se presenta un cuadro resumen (véase Anexo \ref{A:table}) de lo que se presenta en esta sección.
+En esta sección se presentarán diversos artículos de investigación o tesis las cuales abordarán diversas técnicas y enfoques que se emplearon para afrontar problemas similares al de esta tesis.
 
 
 \subsection{Efficient Video Classification Using Fewer Frames}
-\cite{bhardwaj2019efficient}
+	\cite {bhardwaj2019efficient}
 \subsubsection{Planteamiento del problema}
 La necesidad de reducir las operaciones de punto flotante (FLOPs) y la huella de memoria. Aunque los modelos compactos actuales son más ligeros en términos de memoria, todavía requieren un número significativo de FLOPs ya que procesan todos los cuadros de un video. La propuesta de esta investigación es desarrollar modelos de clasificación de videos que procesen menos cuadros, disminuyendo así el número de FLOPs.
 \subsubsection{Objetivos}
@@ -14,7 +14,7 @@ La necesidad de reducir las operaciones de punto flotante (FLOPs) y la huella de
 	\item Realizar una evaluación exhaustiva con tres tipos de modelos de clasificación de video: modelos recurrentes, modelos de agrupación y agregación, y modelos de agrupación y agregación eficientes en memoria.
 \end{itemize}
 
-\subsubsection {Metodología}
+\subsubsection{Metodología}
 La metodología del documento incluye varias etapas, a partir de la recolección de datos hasta la implementación del modelo. A continuación, se presenta un resumen de la metodología:
 
 \begin{enumerate}
@@ -23,6 +23,14 @@ La metodología del documento incluye varias etapas, a partir de la recolección
 	\item \textbf{Minimización de pérdidas}:Se minimizan las diferencias entre las representaciones del profesor y del estudiante mediante funciones de pérdida específicas, como la pérdida de error cuadrático.
 	\item \textbf{Evaluación y Comparación}:Se evalúa el rendimiento del estudiante en términos de precisión y eficiencia computacional, comparándolo con el modelo del profesor y otros métodos base.
 \end{enumerate}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.80\textwidth]{2/figures/Metodología_ant_1.png}
+	\caption{Metodología del antecedente. Fuente:\cite {bhardwaj2019efficient}.}
+
+	\label{1:fig}
+\end{figure}
 
 
 \subsubsection{Resultados}
@@ -74,11 +82,11 @@ Dado que el procesamiento de imágenes y videos es computacionalmente costoso, e
 			\item Limpieza de ruido en los textos de los títulos y descripciones de los videos. Se transforman los textos a minúsculas, se eliminan números, puntuaciones y espacios en blanco adicionales. El proceso incluye tokenización, eliminación de tokens no alfabéticos y palabras vacías, finalizando con la lematización para convertir las palabras a sus formas raíz.
 			\item Análisis estadístico tanto a nivel observacional como de corpus. Se evalúan medidas como el tamaño promedio del vocabulario y la riqueza léxica de las descripciones.
 			\item  El conjunto de datos se divide en un 80\% para entrenamiento y un 20\% para pruebas, con el objetivo de entrenar
-			\end{itemize}
+		\end{itemize}
 		
 		\item \textbf{Entrenamiento del modelo}:
 		\begin{itemize}
-			\item Se Se implementan redes neuronales recurrentes (RNN) y unidades de memoria controlada (GRU) para procesar secuencias textuales. Se explica cómo estas redes manejan datos secuenciales mediante conexiones entre capas y se optimizan a través de capas de dropout y activación.
+			\item Se implementan redes neuronales recurrentes (RNN) y unidades de memoria controlada (GRU) para procesar secuencias textuales. Se explica cómo estas redes manejan datos secuenciales mediante conexiones entre capas y se optimizan a través de capas de dropout y activación.
 		\end{itemize}
 		
 		\item \textbf{Categorización de los videos}:
@@ -86,10 +94,10 @@ Dado que el procesamiento de imágenes y videos es computacionalmente costoso, e
 			\item Se desarrolla una red neuronal convolucional profunda (DCNN) para la clasificación de videos. El modelo utiliza capas de convolución, agrupamiento y capas densas, optimizando sus parámetros y estructura para obtener un alto rendimiento en la categorización.
 		\end{itemize}
 	\end{enumerate}
-	\begin{figure}[h]
+	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.5\textwidth]{2/figures/Metodología.png}
-		\caption{Metodología}
+		\caption{Metodología de investigación. Fuente:\cite {raza2024improved}.}
 		\label{fig:etiqueta_de_la_figura}
 	\end{figure}
 
@@ -155,6 +163,13 @@ El trabajo se basa en la necesidad de sistemas de gestión de contenido multimed
 		\item  El sistema fue probado en programas de noticias de varias cadenas de televisión de Rumania, midiendo el tiempo de análisis y el número de imágenes útiles extraídas para la indexación en la base de datos.
 	\end{itemize}
 \end{enumerate}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{2/figures/Metodologia_ant_3.png}
+	\caption{Segmentación del video. Fuente:\cite {rozsa2022tv}.}
+	\label{fig:etiqueta_de_la_figura}
+\end{figure}
+
 	
 \subsubsection{Resultados: }
 
@@ -193,7 +208,8 @@ El trabajo aborda el problema del crecimiento exponencial de los datos de video,
 \end{itemize}
 
 \subsubsection{Fundamento Teórico}
-El trabajo se fundamenta en la teoría del aprendizaje automático (ML) y el procesamiento de video. El análisis de video basado en el contenido (Content-Based Video Analysis) permite una mejor comprensión de los datos visuales mediante técnicas de visión por computadora y procesamiento de imágenes. La detección de cortes y la extracción de fotogramas clave son aspectos esenciales para la organización y recuperación de videos. Los modelos de ML, como el SVM, se utilizan para clasificar patrones en los datos visuales, mientras que los algoritmos de estimación de movimiento, basados en el bloque de coincidencia, permiten identificar transiciones entre fotogramas y escenas.
+El trabajo se fundamenta en la teoría del aprendizaje automático (ML) y el procesamiento de video, con énfasis en la eficiencia computacional. El análisis de video basado en el contenido (Content-Based Video Analysis) permite una mejor comprensión de los datos visuales mediante técnicas de visión por computadora y procesamiento de imágenes. La detección de cortes y la extracción de fotogramas clave son aspectos esenciales para la organización y recuperación de videos. Los modelos de ML, como el SVM, se utilizan para clasificar patrones en los datos visuales, mientras que los algoritmos de estimación de movimiento, basados en el bloque de coincidencia, permiten identificar transiciones entre fotogramas y escenas de manera eficiente, reduciendo el tiempo y los recursos computacionales necesarios para analizar videos extensos.
+
 \subsubsection{Metodología}
 
 \begin{enumerate}
@@ -214,9 +230,18 @@ El trabajo se fundamenta en la teoría del aprendizaje automático (ML) y el pro
 	
 	\item \textbf{Evaluación experimental}:
 	\begin{itemize}
-		\item El sistema fue probado en videos deportivos, midiendo su eficiencia en la detección de cortes y la capacidad de reducir el volumen de datos en los índices de video. La plataforma generada permite navegar a través de los fotogramas clave para visualizar resúmenes del contenido.
+		\item El sistema fue probado en videos deportivos, midiendo su eficiencia en la detección de cortes y la capacidad de reducir el volumen de datos en los índices de video. La eficiencia se evaluó en términos del tiempo de procesamiento requerido y la precisión de la detección de transiciones graduales y no graduales. La plataforma generada permite navegar a través de los fotogramas clave para visualizar resúmenes del contenido, optimizando tanto la recuperación de la información como la experiencia de usuario.
 	\end{itemize}
+
 \end{enumerate}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{2/figures/Metodologia_ant_5.png}
+	\caption{Metodología del estudio. Fuente:\cite {wang2023shear}.}
+	\label{fig:etiqueta_de_la_figura}
+\end{figure}
+
 
 \subsubsection{Resultados}
 
@@ -252,13 +277,18 @@ El artículo se basa en el uso de algoritmos de clustering no supervisados para 
 	\item \textbf{Algoritmo de clustering no supervisado}:
 	\begin{itemize}
 		\item El algoritmo realiza un análisis de movimiento y características de contenido entre los fotogramas. Agrupa fotogramas similares en clusters y selecciona aquellos que mejor representan el video. El proceso se optimiza mediante el uso de redes neuronales RBF, que ajustan las trayectorias de movimiento y optimizan la selección de fotogramas clave.
-	
+	\end{itemize}
 	\item \textbf{Evaluación experimental}:
 	\begin{itemize}
 		\item Se realizaron simulaciones con diferentes tipos de videos para comparar el rendimiento del algoritmo propuesto con modelos tradicionales. Los resultados mostraron una mayor precisión en la extracción de fotogramas clave y una reducción en el tiempo de procesamiento.
 	\end{itemize}
 \end{enumerate}
-
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{2/figures/Metodologia_ant_4.png}
+	\caption{Metodología del estudio. Fuente:\cite {wang2023keyframe}.}
+	\label{fig:etiqueta_de_la_figura}
+\end{figure}
 
 \subsubsection{Resultados}
 

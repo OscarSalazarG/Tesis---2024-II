@@ -5,11 +5,11 @@ En la era digital actual, el consumo de contenido audiovisual en redes sociales 
 Una de los principales viene a ser la búsqueda de la actualidad del mundo, de acuerdo a una encuesta realizada por Pew Reasearch Center al sector adulto de EEUU, 3 de cada 10 adultos utilizan regularmente Youtube como plataforma de noticias, siguiendo Instagram y Tiktok. La cantidad de información que se genera día a día es abrumadora y el tiempo escaso.
 
 \begin{figure}[h]
-    \begin{center}
-        \includegraphics[width=0.80\textwidth]{1/figures/Tendencias_Redes_2023.jpg}
-        \caption[Porcentaje de usuarios en base a su consumo de noticias en redes sociales en 2023]{Porcentaje de usuarios en base a su consumo de noticias en redes sociales en 2023. \\ Fuente: \cite{pewresearch_cite}. \textit{Encuesta a adultos de EEUU realizada en 2023}.}
-        \label{1:fig}
-    \end{center}
+	\centering
+	\includegraphics[width=0.80\textwidth]{1/figures/Tendencias_Redes_2023.jpg}
+	\caption[Porcentaje de usuarios en base a su consumo de noticias en redes sociales en 2023]{Porcentaje de usuarios en base a su consumo de noticias en redes sociales en 2023. \\ Fuente: \cite{pewresearch_cite}. \textit{Encuesta a adultos de EEUU realizada en 2023}.}
+	\label{1:fig}
+    
 \end{figure}
 
 De acuerdo a la \ref{1:fig}, se puede observar que plataformas con tendencia a `Más información en menos tiempo` empiezan a ser las preferidas entre el público, observando el sorprendente aumento de plataformas comoo Instagram y Tiktok. 
@@ -26,11 +26,10 @@ YouTube se convierte así en una fuente inagotable de contenido relevante para e
 Aplicar herramientas de big data en YouTube permite automatizar la extracción y el procesamiento de contenido, facilitando la selección de los clips más relevantes que capturan los eventos importantes del día.
 
 \begin{figure}[h]
-    \begin{center}
-        \includegraphics[width=0.80\textwidth]{1/figures/Top_Peru_2023.png}
-        \caption[Top webs más visitadas en Perú en 2023]{Top webs más visitadas en Perú en 2023. \\ Fuente: \cite{youtube_peru}. \textit{Basado en el tráfico web de Diciembre de 2022 a Noviembre del 2023}.}
-        \label{2:fig}
-    \end{center}
+    \centering
+	\includegraphics[width=0.80\textwidth]{1/figures/Top_Peru_2023.png}
+	\caption[Top webs más visitadas en Perú en 2023]{Top webs más visitadas en Perú en 2023. \\ Fuente: \cite{youtube_peru}. \textit{Basado en el tráfico web de Diciembre de 2022 a Noviembre del 2023}.}
+	\label{2:fig}
 \end{figure}
 
 Esta automatización optimiza tanto el tiempo como los recursos necesarios para curar contenido, mejorando la precisión en la selección de información significativa.
@@ -43,14 +42,14 @@ La automatización en la generación de clips también contribuye a la eficienci
 
 \subsection{Problema General}
 \newcommand{\ProblemaGeneral}{
-	¿De qué manera el desarrollo de una herramienta inteligente basada en técnicas de clustering de frames puede facilitar la identificación automática de tendencias a partir de videos de noticieros crear clips de videos representativos?}
+	¿De qué manera el desarrollo de una herramienta inteligente basada en técnicas de clustering de frames puede facilitar la identificación automática de tendencias a partir de videos de noticias para crear clips de videos representativos?}
 \ProblemaGeneral
 \subsection{Problemas Espec\'{i}ficos}
-\newcommand{\Pbone}{¿Cómo obtener de manera eficiente los videos de noticieros de un día en específico, asegurando que sean representativos de los eventos más importantes del día?}
+\newcommand{\Pbone}{¿Cómo obtener de manera eficiente los videos de noticias referentes a un día en específico, asegurando que sean representativos de los eventos más importantes del día?}
 \newcommand{\Pbtwo}{¿Qué técnicas de preprocesamiento de imágenes y normalización son más efectivas para mejorar la calidad y relevancia de los frames extraídos de los videos?}
 \newcommand{\Pbthree}{¿Qué técnicas de extracción de características permiten representar adecuadamente los frames para identificar patrones visuales relevantes?}
 \newcommand{\Pbfour}{¿Cuál es el algoritmo de clustering más adecuado para agrupar los frames en base a las similitudes de las características extraídas que posean entre ellas?}
-\newcommand{\Pbfive}{¿Cómo generar clips informativos concisos, asegurando que reflejen los eventos clave discutidos en los noticieros?}
+\newcommand{\Pbfive}{¿Cómo generar clips informativos concisos, asegurando que reflejen los eventos clave discutidos en las noticias?}
 
 \begin{itemize}
 	\item \Pbone
@@ -63,13 +62,13 @@ La automatización en la generación de clips también contribuye a la eficienci
 \section{Objetivos de la Investigación}
 \subsection{Objetivo General}
 \newcommand{\ObjetivoGeneral}{
-	Desarrollar una herramienta inteligente que identifique de manera automática tendencias en videos de noticieros mediante el clustering de frames representativos y genere clips de videos que resuman los eventos clave.
+	Desarrollar una herramienta inteligente que identifique de manera automática tendencias en videos de noticias mediante el clustering de frames representativos y genere clips de videos que resuman los eventos clave.
 }
 \ObjetivoGeneral
 
 \subsection{Objetivos Espec\'{i}ficos}
 \newcommand{\Objone}{
-	Desarrollar un método eficiente para la recolección de videos de noticieros, asegurando que estos reflejen los eventos más importantes del día.
+	Desarrollar un método eficiente para la recolección de videos de noticias, asegurando que estos reflejen los eventos más importantes del día.
 }
 \newcommand{\Objtwo}{
 	Implementar técnicas de preprocesamiento de imágenes y normalización que mejoren la calidad de los frames extraídos, optimizando su relevancia para el análisis.
@@ -81,7 +80,7 @@ La automatización en la generación de clips también contribuye a la eficienci
 	Seleccionar e implementar un algoritmo de clustering que agrupe los frames basándose en la similitud de características, garantizando que los grupos formados representen tendencias claras.
 }
 \newcommand{\Objtfive}{
-	Desarrollar un sistema automatizado para generar clips informativos concisos que resuman los eventos clave identificados en los videos de noticieros.
+	Desarrollar un sistema automatizado para generar clips informativos concisos que resuman los eventos clave identificados en los videos de noticias.
 }
 
 
@@ -112,14 +111,14 @@ La presente investigación se centrará en el desarrollo de un sistema automatiz
 
 \subsection{Hipótesis General}
 \newcommand{\HipotesisGeneral}{
-	Mediante el uso de técnicas de modelos de aprendizaje automático, se logrará mejorar la identificación de tendencias y la generación de clips informativos representativos de videos de noticieros.
+	Mediante el uso de técnicas de modelos de aprendizaje automático, se logrará mejorar la identificación de tendencias y la generación de clips informativos representativos de videos de noticias.
 }
 \HipotesisGeneral
 
 \HipotesisGeneral
 \subsection{Hipótesis Específicas}
 \newcommand{\Hone}{
-	La recolección automatizada de videos de noticieros de un día específico permitirá capturar de manera eficiente los contenidos más representativos para el análisis de tendencias.
+	La recolección automatizada de videos de noticias referentes a un día específico permitirá capturar de manera eficiente los contenidos más representativos para el análisis de tendencias.
 }
 \newcommand{\Htwo}{
 	El uso de técnicas avanzadas de preprocesamiento y normalización de imágenes mejorará significativamente la calidad de los frames, facilitando su clasificación y análisis posterior.
@@ -128,7 +127,7 @@ La presente investigación se centrará en el desarrollo de un sistema automatiz
 	La extracción de características adecuadas de los frames permitirá identificar correctamente patrones visuales que reflejen temas importantes y eventos clave.
 }
 \newcommand{\Hfour}{
-	El uso de un algoritmo de clustering optimizado permitirá agrupar los frames con precisión en función de sus similitudes, identificando adecuadamente las tendencias en los noticieros.
+	El uso de un algoritmo de clustering optimizado permitirá agrupar los frames con precisión en función de sus similitudes, identificando adecuadamente las tendencias en los noticias.
 }
 \newcommand{\Hfive}{
 	La generación automatizada de clips informativos basados en las tendencias identificadas ofrecerá resúmenes concisos y efectivos de los eventos más relevantes del día.
