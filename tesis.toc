@@ -1,140 +1,146 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{Índice de Figuras}{6}{chapter*.2}%
-\contentsline {chapter}{Índice de Tablas}{8}{chapter*.3}%
-\contentsline {chapter}{\numberline {1}PLANTEAMIENTO DEL PROBLEMA}{9}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Descripción de la Realidad Problemática}{9}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Problema General}{11}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Problemas Espec\'{i}ficos}{11}{subsection.1.1.2}%
-\contentsline {section}{\numberline {1.2}Objetivos de la Investigación}{12}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Objetivo General}{12}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Objetivos Espec\'{i}ficos}{12}{subsection.1.2.2}%
-\contentsline {section}{\numberline {1.3}Justificación de la Investigación}{12}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Teórica}{12}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Práctica}{13}{subsection.1.3.2}%
-\contentsline {subsection}{\numberline {1.3.3}Metodológica}{13}{subsection.1.3.3}%
-\contentsline {section}{\numberline {1.4}Delimitación del Estudio}{13}{section.1.4}%
-\contentsline {subsection}{\numberline {1.4.1}Espacial}{13}{subsection.1.4.1}%
-\contentsline {subsection}{\numberline {1.4.2}Temporal}{14}{subsection.1.4.2}%
-\contentsline {subsection}{\numberline {1.4.3}Conceptual}{14}{subsection.1.4.3}%
-\contentsline {section}{\numberline {1.5}Hipótesis}{14}{section.1.5}%
-\contentsline {subsection}{\numberline {1.5.1}Hipótesis General}{14}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Hipótesis Específicas}{14}{subsection.1.5.2}%
-\contentsline {subsection}{\numberline {1.5.3}Matriz de Consistencia}{15}{subsection.1.5.3}%
-\contentsline {chapter}{\numberline {2}MARCO TEÓRICO}{16}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Antecedentes de la investigación}{16}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Efficient Video Classification Using Fewer Frames}{16}{subsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.1.1}Planteamiento del problema}{16}{subsubsection.2.1.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.1.2}Objetivos}{16}{subsubsection.2.1.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.1.3}Metodología}{17}{subsubsection.2.1.1.3}%
-\contentsline {subsubsection}{\numberline {2.1.1.4}Resultados}{18}{subsubsection.2.1.1.4}%
-\contentsline {subsection}{\numberline {2.1.2}An improved deep convolutional neural network-based YouTube video classification using textual features}{18}{subsection.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.2.1}Planteamiento del problema}{19}{subsubsection.2.1.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.2.2}Objetivos}{19}{subsubsection.2.1.2.2}%
-\contentsline {subsubsection}{\numberline {2.1.2.3}Fundamento Teórico}{19}{subsubsection.2.1.2.3}%
-\contentsline {subsubsection}{\numberline {2.1.2.4}Metodología: }{20}{subsubsection.2.1.2.4}%
-\contentsline {subsubsection}{\numberline {2.1.2.5}Resultados: }{21}{subsubsection.2.1.2.5}%
-\contentsline {subsection}{\numberline {2.1.3}TV News Database Indexing System with Video Structure Analysis, Representative Images Extractions and OCR for News Titles}{21}{subsection.2.1.3}%
-\contentsline {subsubsection}{\numberline {2.1.3.1}Planteamiento del Problema}{21}{subsubsection.2.1.3.1}%
-\contentsline {subsubsection}{\numberline {2.1.3.2}Objetivos}{21}{subsubsection.2.1.3.2}%
-\contentsline {subsubsection}{\numberline {2.1.3.3}Fundamento Teórico}{22}{subsubsection.2.1.3.3}%
-\contentsline {subsubsection}{\numberline {2.1.3.4}Metodología }{22}{subsubsection.2.1.3.4}%
-\contentsline {subsubsection}{\numberline {2.1.3.5}Resultados: }{23}{subsubsection.2.1.3.5}%
-\contentsline {subsection}{\numberline {2.1.4}Shear Detection and Key Frame Extraction of Sports Video Based on Machine Learning}{23}{subsection.2.1.4}%
-\contentsline {subsubsection}{\numberline {2.1.4.1}Planteamiento del Problema}{24}{subsubsection.2.1.4.1}%
-\contentsline {subsubsection}{\numberline {2.1.4.2}Objetivos}{24}{subsubsection.2.1.4.2}%
-\contentsline {subsubsection}{\numberline {2.1.4.3}Fundamento Teórico}{24}{subsubsection.2.1.4.3}%
-\contentsline {subsubsection}{\numberline {2.1.4.4}Metodología}{24}{subsubsection.2.1.4.4}%
-\contentsline {subsubsection}{\numberline {2.1.4.5}Resultados}{26}{subsubsection.2.1.4.5}%
-\contentsline {subsection}{\numberline {2.1.5}Research on Key Frame Extraction of Digital Image Based on Unsupervised Clustering Algorithm}{26}{subsection.2.1.5}%
-\contentsline {subsubsection}{\numberline {2.1.5.1}Planteamiento del Problema}{26}{subsubsection.2.1.5.1}%
-\contentsline {subsubsection}{\numberline {2.1.5.2}Objetivos}{26}{subsubsection.2.1.5.2}%
-\contentsline {subsubsection}{\numberline {2.1.5.3}Fundamento Teórico}{27}{subsubsection.2.1.5.3}%
-\contentsline {subsubsection}{\numberline {2.1.5.4}Metodología}{27}{subsubsection.2.1.5.4}%
-\contentsline {subsubsection}{\numberline {2.1.5.5}Resultados}{28}{subsubsection.2.1.5.5}%
-\contentsline {subsection}{\numberline {2.1.6}NewsVideo Summarization Combining SURF and Color Histogram Features}{28}{subsection.2.1.6}%
-\contentsline {subsubsection}{\numberline {2.1.6.1}Planteamiento del Problema}{28}{subsubsection.2.1.6.1}%
-\contentsline {subsubsection}{\numberline {2.1.6.2}Objetivos}{29}{subsubsection.2.1.6.2}%
-\contentsline {subsubsection}{\numberline {2.1.6.3}Fundamento Teórico}{29}{subsubsection.2.1.6.3}%
-\contentsline {subsubsection}{\numberline {2.1.6.4}Metodología }{29}{subsubsection.2.1.6.4}%
-\contentsline {subsubsection}{\numberline {2.1.6.5}Resultados:}{30}{subsubsection.2.1.6.5}%
-\contentsline {section}{\numberline {2.2}Bases Teóricas}{31}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Preprocesamiento de imágenes}{31}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Deep Learning}{32}{subsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.2.1}Redes Neuronales Convolucionales (CNNs)}{32}{subsubsection.2.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2.2}ResNet50}{34}{subsubsection.2.2.2.2}%
-\contentsline {paragraph}{Arquitectura y Estructura de ResNet50}{34}{section*.21}%
-\contentsline {paragraph}{Funcionamiento de los bloques residuales}{34}{section*.22}%
-\contentsline {paragraph}{Ventajas de ResNet50}{34}{section*.23}%
-\contentsline {subsection}{\numberline {2.2.3}Análisis de Componentes Principales (PCA)}{35}{subsection.2.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.3.1}Funcionamiento de PCA}{35}{subsubsection.2.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.2.3.2}Ventajas de PCA}{37}{subsubsection.2.2.3.2}%
-\contentsline {subsection}{\numberline {2.2.4}Clustering}{37}{subsection.2.2.4}%
-\contentsline {subsubsection}{\numberline {2.2.4.1}K-means}{38}{subsubsection.2.2.4.1}%
-\contentsline {subsection}{\numberline {2.2.5}Inercia en clustering}{39}{subsection.2.2.5}%
-\contentsline {subsubsection}{\numberline {2.2.5.1}Definición de inercia}{39}{subsubsection.2.2.5.1}%
-\contentsline {subsubsection}{\numberline {2.2.5.2}Optimización de clusters mediante inercia}{39}{subsubsection.2.2.5.2}%
-\contentsline {subsubsection}{\numberline {2.2.5.3}Método del codo}{40}{subsubsection.2.2.5.3}%
-\contentsline {subsubsection}{\numberline {2.2.5.4}Ventajas de la Inercia}{40}{subsubsection.2.2.5.4}%
-\contentsline {section}{\numberline {2.3}Marco Conceptual}{40}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Scraping}{40}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Automatización}{41}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Curaduría de contenido}{41}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Preprocesamiento de datos}{42}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Extracción de características}{42}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}Clustering}{42}{subsection.2.3.6}%
-\contentsline {subsection}{\numberline {2.3.7}Reducción de dimensionalidad}{42}{subsection.2.3.7}%
-\contentsline {subsection}{\numberline {2.3.8}Evaluación de clusters}{43}{subsection.2.3.8}%
-\contentsline {subsection}{\numberline {2.3.9}Selección de frames clave}{43}{subsection.2.3.9}%
-\contentsline {subsection}{\numberline {2.3.10}Metadatos}{43}{subsection.2.3.10}%
-\contentsline {subsection}{\numberline {2.3.11}Etiquetado de datos}{44}{subsection.2.3.11}%
-\contentsline {subsection}{\numberline {2.3.12}Concatenación de características}{44}{subsection.2.3.12}%
-\contentsline {subsection}{\numberline {2.3.13}Extracción de Frames}{44}{subsection.2.3.13}%
-\contentsline {subsection}{\numberline {2.3.14}Aplicación de Línea de Comando}{44}{subsection.2.3.14}%
-\contentsline {subsection}{\numberline {2.3.15}DataFrame}{44}{subsection.2.3.15}%
-\contentsline {subsection}{\numberline {2.3.16}Concatenación de Videos}{45}{subsection.2.3.16}%
-\contentsline {chapter}{\numberline {3}METODOLOGÍA DE LA INVESTIGACIÓN}{46}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Diseño de la investigación}{46}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Alcance de la investigación}{46}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Tipo de investigación}{46}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Enfoque de investigación}{47}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}Población y muestra}{47}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Operacionalización de variables}{48}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Técnicas de recolección}{48}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Técnicas para el procesamiento y análisis de la información}{49}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Metodología de la implementación de la solución}{49}{subsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.1.1}Recolección de datos}{49}{subsubsection.3.5.1.1}%
-\contentsline {subsubsection}{\numberline {3.5.1.2}Preprocesamiento de datos}{49}{subsubsection.3.5.1.2}%
-\contentsline {subsubsection}{\numberline {3.5.1.3}Extracción de Características}{50}{subsubsection.3.5.1.3}%
-\contentsline {subsubsection}{\numberline {3.5.1.4}Clasificación de datos}{50}{subsubsection.3.5.1.4}%
-\contentsline {subsubsection}{\numberline {3.5.1.5}Creación de clips informativos}{51}{subsubsection.3.5.1.5}%
-\contentsline {subsection}{\numberline {3.5.2}Metodología para la medición de resultados}{51}{subsection.3.5.2}%
-\contentsline {section}{\numberline {3.6}Cronograma de Actividades}{51}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Presupuesto}{52}{section.3.7}%
-\contentsline {chapter}{\numberline {4}DESARROLLO DE LA SOLUCIÓN}{54}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Equipo utilizado}{54}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Especificaciones de Python}{55}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Librerías}{55}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Extracción de datos}{56}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Automatización de la búsqueda de videos en YouTube}{57}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Descarga de videos}{58}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Organización de videos}{59}{subsection.4.4.3}%
-\contentsline {section}{\numberline {4.5}Preprocesamiento de datos}{60}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Extracción de frames}{60}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Etiquetado de frames}{61}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Operaciones sobre los frames}{61}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}Guardado de frames}{63}{subsection.4.5.4}%
-\contentsline {section}{\numberline {4.6}Extracción de características}{64}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}HOG (Histogram of Oriented Gradients)}{64}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}Extracción de características con CNN}{65}{subsection.4.6.2}%
-\contentsline {subsection}{\numberline {4.6.3}Concatenación de características}{66}{subsection.4.6.3}%
-\contentsline {section}{\numberline {4.7}Clasificación de datos}{66}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}Reducción de dimensionalidad con PCA}{66}{subsection.4.7.1}%
-\contentsline {subsection}{\numberline {4.7.2}Aplicación de K-means}{67}{subsection.4.7.2}%
-\contentsline {subsection}{\numberline {4.7.3}Selección de frames clave}{68}{subsection.4.7.3}%
-\contentsline {section}{\numberline {4.8}Generación de Clips a partir de Frames Clave}{69}{section.4.8}%
-\contentsline {subsection}{\numberline {4.8.1}Descripción del Proceso}{69}{subsection.4.8.1}%
-\contentsline {subsection}{\numberline {4.8.2}Visualización de Resultados}{70}{subsection.4.8.2}%
-\contentsline {chapter}{Anexos}{71}{section*.51}%
-\contentsline {chapter}{\numberline {A}Anexo I: Matriz de Consistencia}{72}{appendix.Alph1}%
-\contentsline {chapter}{\numberline {B}Anexo II: Árbol de problemas}{74}{appendix.Alph2}%
-\contentsline {chapter}{BIBLIOGRAFÍA}{75}{appendix*.54}%
+\contentsline {chapter}{Índice de Tablas}{9}{chapter*.3}%
+\contentsline {chapter}{\numberline {1}PLANTEAMIENTO DEL PROBLEMA}{14}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Descripción de la Realidad Problemática}{14}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Problema General}{16}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Problemas Espec\'{i}ficos}{17}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Objetivos de la Investigación}{17}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Objetivo General}{17}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Objetivos Espec\'{i}ficos}{17}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Justificación de la Investigación}{18}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Teórica}{18}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Práctica}{18}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Metodológica}{18}{subsection.1.3.3}%
+\contentsline {section}{\numberline {1.4}Delimitación del Estudio}{19}{section.1.4}%
+\contentsline {subsection}{\numberline {1.4.1}Espacial}{19}{subsection.1.4.1}%
+\contentsline {subsection}{\numberline {1.4.2}Temporal}{19}{subsection.1.4.2}%
+\contentsline {subsection}{\numberline {1.4.3}Conceptual}{19}{subsection.1.4.3}%
+\contentsline {section}{\numberline {1.5}Hipótesis}{20}{section.1.5}%
+\contentsline {subsection}{\numberline {1.5.1}Hipótesis General}{20}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}Hipótesis Específicas}{20}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}Matriz de Consistencia}{20}{subsection.1.5.3}%
+\contentsline {chapter}{\numberline {2}MARCO TEÓRICO}{21}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Antecedentes de la investigación}{21}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Efficient Video Classification Using Fewer Frames}{21}{subsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.1}Planteamiento del problema}{21}{subsubsection.2.1.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.1.2}Objetivos}{21}{subsubsection.2.1.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.1.3}Metodología}{22}{subsubsection.2.1.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.1.4}Resultados}{23}{subsubsection.2.1.1.4}%
+\contentsline {subsection}{\numberline {2.1.2}An improved deep convolutional neural network-based YouTube video classification using textual features}{23}{subsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.1}Planteamiento del problema}{24}{subsubsection.2.1.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.2.2}Objetivos}{24}{subsubsection.2.1.2.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.3}Fundamento Teórico}{24}{subsubsection.2.1.2.3}%
+\contentsline {subsubsection}{\numberline {2.1.2.4}Metodología: }{25}{subsubsection.2.1.2.4}%
+\contentsline {subsubsection}{\numberline {2.1.2.5}Resultados: }{26}{subsubsection.2.1.2.5}%
+\contentsline {subsection}{\numberline {2.1.3}TV News Database Indexing System with Video Structure Analysis, Representative Images Extractions and OCR for News Titles}{26}{subsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.3.1}Planteamiento del Problema}{26}{subsubsection.2.1.3.1}%
+\contentsline {subsubsection}{\numberline {2.1.3.2}Objetivos}{26}{subsubsection.2.1.3.2}%
+\contentsline {subsubsection}{\numberline {2.1.3.3}Fundamento Teórico}{27}{subsubsection.2.1.3.3}%
+\contentsline {subsubsection}{\numberline {2.1.3.4}Metodología }{27}{subsubsection.2.1.3.4}%
+\contentsline {subsubsection}{\numberline {2.1.3.5}Resultados: }{28}{subsubsection.2.1.3.5}%
+\contentsline {subsection}{\numberline {2.1.4}Shear Detection and Key Frame Extraction of Sports Video Based on Machine Learning}{28}{subsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.4.1}Planteamiento del Problema}{29}{subsubsection.2.1.4.1}%
+\contentsline {subsubsection}{\numberline {2.1.4.2}Objetivos}{29}{subsubsection.2.1.4.2}%
+\contentsline {subsubsection}{\numberline {2.1.4.3}Fundamento Teórico}{29}{subsubsection.2.1.4.3}%
+\contentsline {subsubsection}{\numberline {2.1.4.4}Metodología}{29}{subsubsection.2.1.4.4}%
+\contentsline {subsubsection}{\numberline {2.1.4.5}Resultados}{31}{subsubsection.2.1.4.5}%
+\contentsline {subsection}{\numberline {2.1.5}Research on Key Frame Extraction of Digital Image Based on Unsupervised Clustering Algorithm}{31}{subsection.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.5.1}Planteamiento del Problema}{31}{subsubsection.2.1.5.1}%
+\contentsline {subsubsection}{\numberline {2.1.5.2}Objetivos}{31}{subsubsection.2.1.5.2}%
+\contentsline {subsubsection}{\numberline {2.1.5.3}Fundamento Teórico}{32}{subsubsection.2.1.5.3}%
+\contentsline {subsubsection}{\numberline {2.1.5.4}Metodología}{32}{subsubsection.2.1.5.4}%
+\contentsline {subsubsection}{\numberline {2.1.5.5}Resultados}{33}{subsubsection.2.1.5.5}%
+\contentsline {subsection}{\numberline {2.1.6}NewsVideo Summarization Combining SURF and Color Histogram Features}{33}{subsection.2.1.6}%
+\contentsline {subsubsection}{\numberline {2.1.6.1}Planteamiento del Problema}{33}{subsubsection.2.1.6.1}%
+\contentsline {subsubsection}{\numberline {2.1.6.2}Objetivos}{34}{subsubsection.2.1.6.2}%
+\contentsline {subsubsection}{\numberline {2.1.6.3}Fundamento Teórico}{34}{subsubsection.2.1.6.3}%
+\contentsline {subsubsection}{\numberline {2.1.6.4}Metodología }{34}{subsubsection.2.1.6.4}%
+\contentsline {subsubsection}{\numberline {2.1.6.5}Resultados:}{35}{subsubsection.2.1.6.5}%
+\contentsline {section}{\numberline {2.2}Bases Teóricas}{36}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Imagen Digital}{36}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Video}{38}{subsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}Preprocesamiento de Imágenes}{39}{subsubsection.2.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2.2}Extracción de Características}{39}{subsubsection.2.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Deep Learning}{40}{subsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.3.1}Redes Neuronales Convolucionales (CNNs)}{41}{subsubsection.2.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.2.3.2}ResNet50}{44}{subsubsection.2.2.3.2}%
+\contentsline {paragraph}{Funcionamiento de los bloques residuales}{45}{section*.27}%
+\contentsline {subsection}{\numberline {2.2.4}Análisis de Componentes Principales (PCA)}{45}{subsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.4.1}Funcionamiento de PCA}{45}{subsubsection.2.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.2.4.2}PCA en Imágenes}{47}{subsubsection.2.2.4.2}%
+\contentsline {subsection}{\numberline {2.2.5}Clustering}{48}{subsection.2.2.5}%
+\contentsline {subsubsection}{\numberline {2.2.5.1}K-means}{48}{subsubsection.2.2.5.1}%
+\contentsline {subsection}{\numberline {2.2.6}Inercia en clustering}{49}{subsection.2.2.6}%
+\contentsline {subsubsection}{\numberline {2.2.6.1}Definición de inercia}{50}{subsubsection.2.2.6.1}%
+\contentsline {subsubsection}{\numberline {2.2.6.2}Optimización de clusters mediante Inercia(Método del codo)}{50}{subsubsection.2.2.6.2}%
+\contentsline {section}{\numberline {2.3}Marco Conceptual}{51}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Scraping}{51}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Automatización}{51}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Curaduría de contenido}{52}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Preprocesamiento de datos}{52}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Extracción de características}{53}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Clustering}{53}{subsection.2.3.6}%
+\contentsline {subsection}{\numberline {2.3.7}Reducción de dimensionalidad}{53}{subsection.2.3.7}%
+\contentsline {subsection}{\numberline {2.3.8}Evaluación de clusters}{53}{subsection.2.3.8}%
+\contentsline {subsection}{\numberline {2.3.9}Selección de frames clave}{54}{subsection.2.3.9}%
+\contentsline {subsection}{\numberline {2.3.10}Metadatos}{54}{subsection.2.3.10}%
+\contentsline {subsection}{\numberline {2.3.11}Etiquetado de datos}{54}{subsection.2.3.11}%
+\contentsline {subsection}{\numberline {2.3.12}Concatenación de características}{54}{subsection.2.3.12}%
+\contentsline {subsection}{\numberline {2.3.13}Extracción de Frames}{55}{subsection.2.3.13}%
+\contentsline {subsection}{\numberline {2.3.14}Aplicación de Línea de Comando}{55}{subsection.2.3.14}%
+\contentsline {subsection}{\numberline {2.3.15}DataFrame}{55}{subsection.2.3.15}%
+\contentsline {subsection}{\numberline {2.3.16}Concatenación de Videos}{55}{subsection.2.3.16}%
+\contentsline {chapter}{\numberline {3}METODOLOGÍA DE LA INVESTIGACIÓN}{56}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Diseño de la investigación}{56}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Alcance de la investigación}{56}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Tipo de investigación}{56}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Enfoque de investigación}{57}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Población y muestra}{57}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Operacionalización de variables}{57}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Técnicas de recolección}{58}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Técnicas para el procesamiento y análisis de la información}{59}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Metodología de la implementación de la solución}{59}{subsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.1.1}Recolección de datos}{59}{subsubsection.3.5.1.1}%
+\contentsline {subsubsection}{\numberline {3.5.1.2}Preprocesamiento de datos}{60}{subsubsection.3.5.1.2}%
+\contentsline {subsubsection}{\numberline {3.5.1.3}Extracción de Características}{60}{subsubsection.3.5.1.3}%
+\contentsline {subsubsection}{\numberline {3.5.1.4}Clasificación de datos}{61}{subsubsection.3.5.1.4}%
+\contentsline {subsubsection}{\numberline {3.5.1.5}Creación de clips informativos}{62}{subsubsection.3.5.1.5}%
+\contentsline {subsection}{\numberline {3.5.2}Metodología para la medición de resultados}{62}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}Cronograma de Actividades}{62}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Presupuesto}{63}{section.3.7}%
+\contentsline {chapter}{\numberline {4}DESARROLLO DE LA SOLUCIÓN}{65}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Equipo utilizado}{65}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Especificaciones de Python}{66}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Librerías}{66}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Extracción de datos}{68}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Automatización de la búsqueda de videos en YouTube}{68}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Descarga de videos}{69}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Organización de videos}{70}{subsection.4.4.3}%
+\contentsline {section}{\numberline {4.5}Preprocesamiento de datos}{71}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Extracción de frames}{71}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Etiquetado de frames}{72}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Operaciones sobre los frames}{72}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Guardado de frames}{74}{subsection.4.5.4}%
+\contentsline {subsection}{\numberline {4.5.5}HOG (Histogram of Oriented Gradients)}{75}{subsection.4.5.5}%
+\contentsline {subsubsection}{\numberline {4.5.5.1}Reducción de dimensionalidad con PCA}{76}{subsubsection.4.5.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.5.2}Procesamiento por lotes}{77}{subsubsection.4.5.5.2}%
+\contentsline {subsection}{\numberline {4.5.6}Extracción de características con CNN}{78}{subsection.4.5.6}%
+\contentsline {subsubsection}{\numberline {4.5.6.1}Reducción de dimensionalidad con PCA y procesamiento por lotes}{78}{subsubsection.4.5.6.1}%
+\contentsline {subsection}{\numberline {4.5.7}Concatenación de características}{79}{subsection.4.5.7}%
+\contentsline {section}{\numberline {4.6}Clasificación de datos}{80}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Método del codo}{80}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Aplicación de K-means}{81}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}Exploración de clústeres}{82}{subsection.4.6.3}%
+\contentsline {subsection}{\numberline {4.6.4}Selección de frames clave}{83}{subsection.4.6.4}%
+\contentsline {section}{\numberline {4.7}Generación de clips}{84}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Descripción del proceso}{85}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Visualización de Resultados}{85}{subsection.4.7.2}%
+\contentsline {chapter}{\numberline {5}CONCLUSIONES Y RECOMENDACIONES}{88}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusiones}{88}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Recomendaciones}{89}{section.5.2}%
+\contentsline {chapter}{BIBLIOGRAFÍA}{91}{chapter*.61}%
+\contentsline {chapter}{Anexos}{93}{section*.62}%
+\contentsline {chapter}{\numberline {A}Anexo I: Matriz de Consistencia}{94}{appendix.Alph1}%
+\contentsline {chapter}{\numberline {B}Anexo II: Árbol de problemas}{96}{appendix.Alph2}%
+\contentsline {chapter}{\numberline {C}Anexo III: Links de videos extraídos}{97}{appendix.Alph3}%

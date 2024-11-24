@@ -1,39 +1,54 @@
 \babel@toc {spanish}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Porcentaje de usuarios en base a su consumo de noticias en redes sociales en 2023}}{9}{figure.caption.4}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Top webs más visitadas en Perú en 2023}}{10}{figure.caption.5}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Porcentaje de usuarios en base a su consumo de noticias en redes sociales en 2023}}{14}{figure.caption.4}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Top webs más visitadas en Perú en 2023}}{16}{figure.caption.5}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Metodología del antecedente. Fuente:\blx@tocontentsinit {0}\cite {bhardwaj2019efficient}.}}{18}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Metodología de investigación. Fuente:\blx@tocontentsinit {0}\cite {raza2024improved}.}}{20}{figure.caption.8}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Segmentación del video. Fuente:\blx@tocontentsinit {0}\cite {rozsa2022tv}.}}{23}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Metodología del estudio. Fuente:\blx@tocontentsinit {0}\cite {wang2023shear}.}}{25}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Metodología del estudio. Fuente:\blx@tocontentsinit {0}\cite {wang2023keyframe}.}}{28}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Proceso de Histogram of Oriented Gradients (HOG). Fuente:\blx@tocontentsinit {0}\cite {bhattarai2023hog}.}}{32}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Estructura de una red neuronal. Fuente: Elaboración propia.}}{32}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Proceso de convolución. Fuente: \blx@tocontentsinit {0}\cite {Goodfellow-et-al-2016}. \textit {Recuperado de Deep Learning}.}}{33}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Arquitectura de ResNet50. Fuente:\blx@tocontentsinit {0}\cite {Mukherjee2022}.}}{35}{figure.caption.24}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Ilustración de K-means. Fuente: \blx@tocontentsinit {0}\cite {bishop2006pattern}. \textit {Recuperado de Pattern Recognition and Machine Learning}.}}{38}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Metodología del antecedente. Fuente:\blx@tocontentsinit {0}\cite {bhardwaj2019efficient}.}}{23}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Metodología de investigación. Fuente:\blx@tocontentsinit {0}\cite {raza2024improved}.}}{25}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Segmentación del video. Fuente:\blx@tocontentsinit {0}\cite {rozsa2022tv}.}}{28}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Metodología del estudio. Fuente:\blx@tocontentsinit {0}\cite {wang2023shear}.}}{30}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Metodología del estudio. Fuente:\blx@tocontentsinit {0}\cite {wang2023keyframe}.}}{33}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Representación de la transformación digital de una imagen. Fuente:\blx@tocontentsinit {0}\cite {Gonzalez-Woods-2021}.}}{36}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Imagen RGB y sus componenetes. Fuente:\blx@tocontentsinit {0}\cite {Gonzalez-Woods-2021}.}}{37}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Composición de imagen RGB. Fuente:\blx@tocontentsinit {0}\cite {Gonzalez-Woods-2021}.}}{37}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Representación del video en frames. Fuente:\blx@tocontentsinit {0}\cite {Tekalp-2015}.}}{38}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Proceso de Histogram of Oriented Gradients (HOG). Fuente:\blx@tocontentsinit {0}\cite {bhattarai2023hog}.}}{40}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Estructura de una red neuronal. Fuente: Elaboración propia.}}{41}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Proceso de convolución. Fuente: \blx@tocontentsinit {0}\cite {Goodfellow-et-al-2016}. \textit {Recuperado de Deep Learning}.}}{42}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Tipos de operaciones pooling. Fuente: \blx@tocontentsinit {0}\cite {Sze-et-al-2017}.}}{43}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Arquitectura de ResNet50. Fuente:\blx@tocontentsinit {0}\cite {Mukherjee2022}.}}{44}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Ejemplo de Eigenfaces generados mediante PCA para el reconocimiento facial. Fuente: Turk y Pentland (1991) \blx@tocontentsinit {0}\cite {Turk-Pentland-1991}.}}{48}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Ilustración de K-means. Fuente: \blx@tocontentsinit {0}\cite {bishop2006pattern}. \textit {Recuperado de Pattern Recognition and Machine Learning}.}}{49}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Ilustración del método del codo para seleccionar el número de clusters óptimo en K-means. Fuente: \blx@tocontentsinit {0}\cite {Humaira-Rasyidah-2018}.}}{51}{figure.caption.30}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Metodología del estudio.}}{49}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Cronograma de actividades del proyecto.}}{52}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Metodología propuesta. Fuente: Elaboración propia}}{59}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Cronograma de actividades del proyecto.}}{63}{figure.caption.35}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Página de partida de scrapping.}}{57}{figure.caption.34}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Filtros aplicados a los resultados de video.}}{58}{figure.caption.35}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Instrucción de descarga de video.}}{59}{figure.caption.36}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Descripción final de carpeta de videos a procesar.}}{60}{figure.caption.37}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Frames etiquetados en la carpeta de frames.}}{61}{figure.caption.38}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Proceso de redimensión de la imagen.}}{62}{figure.caption.39}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Proceso de recorte de la imagen.}}{63}{figure.caption.40}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Características principales de la carpeta de frames generada.}}{63}{figure.caption.41}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Proceso de transformación de imagen utilizando HOG.}}{64}{figure.caption.42}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Estructura del DataFrame con los vectores de características HOG generados.}}{65}{figure.caption.43}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Dataframe generado por la red convolucional entrenada.}}{65}{figure.caption.44}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Concatenación de los vectores de características.}}{66}{figure.caption.45}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Representación de la Inercia utilizando el método del codo.}}{67}{figure.caption.46}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Asignación de clusters y distancias al centroide correspondiente.}}{68}{figure.caption.47}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Características principales de la carpeta de frames generada.}}{69}{figure.caption.48}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Muestra de frames clave y sus frames adyacentes.}}{70}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Página de partida de scrapping.}}{68}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Filtros aplicados a los resultados de video.}}{69}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Instrucción de descarga de video.}}{70}{figure.caption.41}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Descripción final de carpeta de videos a procesar.}}{71}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Frames etiquetados en la carpeta de frames.}}{72}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Proceso de redimensión de la imagen.}}{73}{figure.caption.44}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Proceso de recorte de la imagen.}}{74}{figure.caption.45}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Características principales de la carpeta de frames generada.}}{75}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Proceso de transformación de imagen utilizando HOG.}}{76}{figure.caption.47}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Cantidad de lotes y tiempo utilizado para HOG.}}{77}{figure.caption.48}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Estructura del DataFrame con los vectores de características HOG generados.}}{78}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Dataframe generado por la red convolucional entrenada.}}{79}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Concatenación de los vectores de características.}}{80}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Representación de la Inercia utilizando el método del codo.}}{81}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Asignación de clusters y distancias al centroide correspondiente.}}{82}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Frames más cercanos al centroide en un clúster específico.}}{83}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Frames más cercanos al centroide en un clúster específico.}}{83}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Frames representativos en los clusters con k = 6.}}{84}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Frames representativos en los clusters con k = 10.}}{84}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Muestra de frames clave y sus frames adyacentes.}}{85}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Muestra de frames del clip generado.}}{87}{figure.caption.60}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Matriz de consistencia Completo. Fuente: Elaboración propia}}{73}{figure.caption.52}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Árbol de problemas. Fuente: Elaboración propia}}{74}{figure.caption.53}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Matriz de consistencia Completo. Fuente: Elaboración propia}}{95}{figure.caption.63}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Árbol de problemas. Fuente: Elaboración propia}}{96}{figure.caption.64}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Links de videos extraídos. Fuente: Elaboración propia}}{97}{figure.caption.65}%

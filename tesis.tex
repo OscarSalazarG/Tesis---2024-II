@@ -12,6 +12,7 @@
 \usepackage{float}
 \usepackage{longtable}
 \usepackage{listings}
+\usepackage{rotating}
 
 
 % Agregar el archivo de bibliografía
@@ -129,7 +130,7 @@ pdfauthor={autor nombres}]{hyperref}
 			UNIVERSIDAD ESAN \vspace*{1ex} \\
 			FACULTAD DE INGENIERÍA \vspace*{1ex} \\
 			INGENIERÍA DE TECNOLOGÍAS DE INFORMACIÓN Y SISTEMAS\vspace*{8ex} \\
-			\textbf{Desarrollo de una herramienta inteligente para la generación de clips informativos de tendencias en noticieros mediante clustering de frames representativos}
+			\textbf{Desarrollo de una herramienta inteligente para la generación de clips informativos sobre tendencias en videos de noticias mediante clustering de frames representativos}
 			\vspace*{8ex}\\	
 			
 			Oscar Eduardo Salazar García\\
@@ -145,7 +146,7 @@ pdfauthor={autor nombres}]{hyperref}
 	\renewcommand{\listfigurename}{Índice de Figuras}
 	\renewcommand{\tablename}{Tabla}
 	\renewcommand{\listtablename}{Índice de Tablas}
-
+	
 	\tableofcontents % print the table of contents
 
 	%: ----------------------- contents ------------------------
@@ -156,14 +157,21 @@ pdfauthor={autor nombres}]{hyperref}
 	\listoffigures % print list of figures
 
 	\listoftables  % print list of tables
+	\include{0/resumen}
+	\include{0/abstract}
+	\include{0/Introduction}
 
 	\include{1/planteamiento}
 	\include{2/marco}
 	\include{3/metodologia}
 	\include{4/desarrollo}
 	%\include{5/resultados}
-	%\include{6/conclusion}
+	\include{6/conclusion}
 
+	
+
+	%% Bibliografía
+	\printbibliography[heading=bibintoc,title={BIBLIOGRAFÍA}]
 	%% Anexos
 	\appendix
 	\renewcommand{\appendixname}{Anexos}
@@ -173,8 +181,5 @@ pdfauthor={autor nombres}]{hyperref}
 	\addappheadtotoc
 	\appendixpage
 	\include{anexos/anexo}
-
-	%% Bibliografía
-	\printbibliography[heading=bibintoc,title={BIBLIOGRAFÍA}]
 
 \end{document}

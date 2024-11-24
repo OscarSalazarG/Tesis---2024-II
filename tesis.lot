@@ -1,21 +1,23 @@
 \babel@toc {spanish}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Resultados de la Clasificación de Videos Utilizando Menos Fotogramas}}{18}{table.caption.7}%
-\contentsline {table}{\numberline {2.2}{\ignorespaces Resultados experimentales de los modelos}}{21}{table.caption.9}%
-\contentsline {table}{\numberline {2.3}{\ignorespaces Resultados experimentales de la segmentación de video en noticias televisivas}}{23}{table.caption.11}%
-\contentsline {table}{\numberline {2.4}{\ignorespaces Resultados de la extracción de fotogramas clave y detección de cortes en videos}}{28}{table.caption.14}%
-\contentsline {table}{\numberline {2.5}{\ignorespaces Resultados de la detección de límites de escenas por tipo de video}}{30}{table.caption.15}%
-\contentsline {table}{\numberline {2.6}{\ignorespaces Comparación de métodos de detección de límites de escenas}}{30}{table.caption.16}%
-\contentsline {table}{\numberline {2.7}{\ignorespaces Comparación de métodos en el dataset TVSum50}}{31}{table.caption.17}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Resultados de la Clasificación de Videos Utilizando Menos Fotogramas}}{23}{table.caption.7}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Resultados experimentales de los modelos}}{26}{table.caption.9}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Resultados experimentales de la segmentación de video en noticias televisivas}}{28}{table.caption.11}%
+\contentsline {table}{\numberline {2.4}{\ignorespaces Resultados de la extracción de fotogramas clave y detección de cortes en videos}}{33}{table.caption.14}%
+\contentsline {table}{\numberline {2.5}{\ignorespaces Resultados de la detección de límites de escenas por tipo de video}}{35}{table.caption.15}%
+\contentsline {table}{\numberline {2.6}{\ignorespaces Comparación de métodos de detección de límites de escenas}}{35}{table.caption.16}%
+\contentsline {table}{\numberline {2.7}{\ignorespaces Comparación de métodos en el dataset TVSum50}}{36}{table.caption.17}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Descripción del estudio}}{47}{table.caption.26}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces \textit {Operacionalización de Variables}}}{48}{table.caption.27}%
-\contentsline {table}{\numberline {3.3}{\ignorespaces \textit {Presupuesto del Proyecto}}}{53}{table.caption.31}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Descripción del estudio}}{57}{table.caption.31}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces \textit {Operacionalización de Variables}}}{58}{table.caption.32}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces \textit {Presupuesto del Proyecto}}}{64}{table.caption.36}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Especificaciones del equipo utilizado}}{54}{table.caption.32}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Especificaciones de Python utilizado}}{55}{table.caption.33}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Descripción de Librerías Usadas en el Proyecto}}{55}{table.4.3}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces Especificaciones del Video Generado a partir de Frames Clave}}{70}{table.caption.50}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Especificaciones del equipo utilizado}}{65}{table.caption.37}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Especificaciones de Python utilizado}}{66}{table.caption.38}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Descripción de librerías usadas en el proyecto}}{66}{table.4.3}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Especificaciones del video generado a partir de frames Clave}}{86}{table.caption.59}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
